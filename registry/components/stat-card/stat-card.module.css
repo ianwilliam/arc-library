@@ -1,0 +1,25 @@
+.card { min-width: 0; padding: var(--space-5); border: 1px solid var(--border); border-radius: var(--radius-panel); background: var(--surface); box-shadow: var(--shadow-resting); transition: border-color var(--duration-fast) var(--ease-standard); }
+@media (hover: hover) and (pointer: fine) { .card:hover { border-color: var(--border-strong); } }
+.header, .footer { display: flex; min-width: 0; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.label, .detail, .change { font-size: var(--text-xs); line-height: 1.35; }
+.label { overflow: hidden; color: var(--text-secondary); font-weight: 500; text-overflow: ellipsis; white-space: nowrap; }
+/* A plain icon beside the label: no tile, so it reads as a hint rather than a control. */
+.icon { display: grid; height: 1rem; flex: 0 0 auto; place-items: center; color: var(--accent); }
+.value { margin: var(--space-5) 0 var(--space-4); color: var(--foreground); font-family: var(--font-display); font-size: clamp(var(--text-2xl), 3vw, var(--text-3xl)); font-weight: 500; letter-spacing: var(--tracking-display); line-height: 1; font-variant-numeric: tabular-nums; }
+.detail { overflow: hidden; color: var(--text-muted); text-overflow: ellipsis; white-space: nowrap; }
+.change { display: inline-flex; align-items: center; gap: 3px; font-weight: 500; white-space: nowrap; transform-origin: 100% 50%; transition: color var(--duration-standard) var(--ease-standard); }
+.changeLabel { display: inline-flex; color: var(--text-muted); font-weight: 400; }
+.success { color: var(--success); }.warning { color: var(--warning); }.danger { color: var(--danger); }.neutral { color: var(--text-secondary); }
+.up, .down, .flat { font-variant-numeric: tabular-nums; }
+/* The trend arrow is one icon that turns, so up, flat, and down read as one indicator changing direction. */
+.trend { display: inline-grid; place-items: center; }
+/* The final value sits invisibly in the same cell, so counting never changes the card's size. */
+.count { display: inline-grid; }
+.count > * { grid-area: 1 / 1; }
+.reserve { visibility: hidden; }
+/* Text swaps: the outgoing copy is popped out of flow so the wrapper never holds both widths. */
+.swap { position: relative; display: inline-flex; max-width: 100%; overflow-x: clip; white-space: nowrap; vertical-align: top; }
+.swap > .text { display: inline-block; }
+.label .text, .detail .text { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.sizer { position: absolute; top: 0; left: 0; visibility: hidden; white-space: nowrap; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { .card, .change { transition: none; } }

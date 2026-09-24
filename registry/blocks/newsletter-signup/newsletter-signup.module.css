@@ -1,0 +1,72 @@
+.newsletter { container: newsletter / inline-size; background: var(--background); color: var(--foreground); font-family: var(--font-body); letter-spacing: var(--tracking-body); }
+.newsletter *, .newsletter *::before, .newsletter *::after { box-sizing: border-box; }
+.srOnly { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* Inline: copy beside the form in a page section. */
+.inline { display: grid; max-width: 1120px; grid-template-columns: minmax(0, 1fr) minmax(0, 460px); align-items: center; gap: var(--space-8) var(--space-16); margin: 0 auto; padding: var(--space-20) var(--space-8); }
+.intro { display: grid; gap: var(--space-3); max-width: 520px; }
+.title { margin: 0; font-family: var(--font-display); font-size: clamp(1.75rem, 1rem + 2.4cqi, var(--text-3xl)); font-weight: 500; letter-spacing: var(--tracking-display); line-height: var(--leading-display); text-wrap: balance; }
+.description { margin: 0; color: var(--text-secondary); font-size: var(--text-base); line-height: 1.5; text-wrap: pretty; }
+
+/* Card: a self-contained card centered in its section. */
+.newsletter[data-variant="card"] { display: grid; place-items: center; padding: var(--space-20) var(--space-6); }
+.card { display: grid; width: min(100%, 480px); gap: var(--space-3); border: 1px solid var(--border); border-radius: var(--radius-surface); padding: var(--space-8); background: var(--surface); box-shadow: var(--shadow-resting); }
+.cardTitle { margin: var(--space-2) 0 0; font-family: var(--font-display); font-size: var(--text-2xl); font-weight: 500; letter-spacing: var(--tracking-display); line-height: var(--leading-display); }
+.card .description { margin-bottom: var(--space-3); font-size: var(--text-sm); }
+.readers { display: flex; align-items: center; gap: var(--space-3); color: var(--text-secondary); font-size: var(--text-sm); }
+.faces { display: flex; padding-left: 6px; }
+.faces img { display: block; width: 26px; height: 26px; margin-left: -6px; border: 2px solid var(--surface); border-radius: 50%; object-fit: cover; }
+.readerLine { position: relative; min-width: 0; }
+
+/* The pill: one field that holds the input and the button, and becomes the confirmation. */
+.form { display: grid; gap: var(--space-3); min-width: 0; }
+.pill { position: relative; display: flex; height: 52px; align-items: center; gap: 4px; border: 1px solid var(--border); padding: 5px; background: var(--surface); transition: border-color var(--duration-fast) var(--ease-standard), box-shadow var(--duration-fast) var(--ease-standard); }
+.pill:hover { border-color: var(--border-strong); }
+.pill:focus-within { border-color: var(--border-strong); box-shadow: var(--shadow-resting); }
+.pill[data-invalid] { border-color: color-mix(in oklch, var(--danger) 55%, var(--border)); }
+.pill[data-done] { border-color: color-mix(in oklch, var(--success) 30%, var(--border)); }
+.field { display: flex; min-width: 0; height: 100%; flex: 1; align-items: center; gap: 10px; padding-left: 12px; }
+.mailIcon { flex: none; color: var(--text-muted); }
+.input { width: 100%; min-width: 0; height: 100%; border: 0; padding: 0; background: none; color: var(--foreground); font: inherit; font-size: var(--text-base); letter-spacing: inherit; outline: none; }
+.input::placeholder { color: var(--text-muted); }
+
+.submit { position: relative; display: inline-flex; height: 100%; flex: none; align-items: center; justify-content: center; border: 0; padding: 0 18px; background: var(--foreground); color: var(--background); font: inherit; font-size: var(--text-sm); font-weight: 500; cursor: pointer; white-space: nowrap; -webkit-tap-highlight-color: transparent; transition: background-color var(--duration-standard) var(--ease-standard), color var(--duration-standard) var(--ease-standard); }
+@media (hover: hover) and (pointer: fine) { .submit:not([data-done]):hover { background: color-mix(in oklch, var(--foreground) 86%, var(--background)); } }
+.submit[data-done] { flex: 1; background: color-mix(in oklch, var(--success) 12%, var(--surface)); color: var(--success); cursor: default; }
+.submitInner { display: inline-grid; }
+.submitLabel { display: inline-flex; grid-area: 1 / 1; align-items: center; gap: 8px; }
+.spinner { width: 14px; height: 14px; border: 2px solid color-mix(in oklch, currentColor 30%, transparent); border-top-color: currentColor; border-radius: 50%; animation: spin 700ms linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.check { display: inline-flex; }
+.check svg { width: 17px; height: 17px; }
+
+.message { position: relative; min-height: 20px; }
+.note { margin: 0; padding-left: 4px; color: var(--text-muted); font-size: var(--text-sm); line-height: var(--leading-body); text-wrap: pretty; }
+.note[data-tone="error"] { color: var(--danger); }
+.note[data-tone="success"] { color: var(--text-secondary); }
+.link, .textButton { color: var(--foreground); text-decoration: underline; text-decoration-color: var(--border-strong); text-underline-offset: 3px; transition: text-decoration-color var(--duration-fast) var(--ease-standard); }
+.textButton { border: 0; padding: 0; background: none; font: inherit; cursor: pointer; }
+@media (hover: hover) and (pointer: fine) { .link:hover, .textButton:hover { text-decoration-color: currentColor; } }
+
+@container newsletter (max-width: 820px) {
+  .inline { grid-template-columns: minmax(0, 1fr); gap: var(--space-6); }
+}
+@container newsletter (max-width: 520px) {
+  .inline { padding: var(--space-12) var(--space-4); }
+  .newsletter[data-variant="card"] { padding: var(--space-10) var(--space-4); }
+  .card { padding: var(--space-6); border-radius: 28px; }
+}
+@container newsletter (max-width: 380px) {
+  .pill { height: auto; flex-direction: column; align-items: stretch; border-radius: 22px !important; }
+  .field { height: 44px; }
+  .submit { height: 44px; border-radius: 18px !important; }
+  .submit[data-done] { height: 44px; }
+}
+
+.preview { display: grid; width: 100%; justify-items: center; gap: var(--space-4); }
+.frame { width: 100%; overflow: hidden; border: 1px solid var(--border); border-radius: 20px; background: var(--background); }
+
+@media (prefers-reduced-motion: reduce) {
+  .pill, .submit { transition: none; }
+  .spinner { animation-duration: 1.6s; }
+}

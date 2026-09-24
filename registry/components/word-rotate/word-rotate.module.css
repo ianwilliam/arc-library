@@ -1,0 +1,10 @@
+.rotate { margin: 0; }
+/* The slot carries the animated width. Its mask fades the leaving word as the slot narrows and reveals a longer one through a soft trailing edge as it widens.
+   Padding with matching negative margins gives the mask room for the rise and blur without changing layout; the edge sits entirely in that room, so a resting word is never dimmed.
+   The track always starts at the slot's leading edge, even in centered text: otherwise it would recenter inside the old width and the leaving word would jump sideways. */
+.frame { position: relative; display: inline-block; box-sizing: content-box; padding: .7em .5em .7em .2em; margin: -.7em -.5em -.7em -.2em; text-align: start; white-space: nowrap; mask-image: linear-gradient(90deg, #000 calc(100% - .5em), transparent); }
+/* The track sizes to the word in flow. The leaving word is taken out of flow and positioned against it. */
+.track { position: relative; display: inline-block; white-space: nowrap; }
+.word { display: inline-block; white-space: pre; }
+.char { display: inline-block; }
+.srOnly { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; user-select: none; }
