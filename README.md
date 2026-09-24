@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://uiarc.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/banner-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./.github/assets/banner-light.svg">
-      <img alt="Arc: React components and blocks with calm, crafted motion. Free and open source, install with shadcn." src="./.github/assets/banner-light.svg" width="100%">
+      <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/banner-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="./.github/assets/banner-light.png">
+      <img alt="Arc: React components and blocks with calm, crafted motion. Free and open source, install with shadcn." src="./.github/assets/banner-light.png" width="100%">
     </picture>
   </a>
 </p>
