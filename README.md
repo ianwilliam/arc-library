@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/banner-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="./.github/assets/banner-light.svg">
-      <img alt="Arc Library: free, open source React components with calm motion." src="./.github/assets/banner-light.svg" width="100%">
+      <img alt="Arc: React components and blocks with calm, crafted motion. Free and open source, install with shadcn." src="./.github/assets/banner-light.svg" width="100%">
     </picture>
   </a>
 </p>
@@ -31,8 +31,88 @@
 
 Arc is a library of React components and blocks with calm, physical motion. Every item is plain source you own: CSS modules on a small set of design tokens, [Motion](https://motion.dev) for animation, keyboard support, and a reduced motion path for every animation. Install anything with the shadcn CLI or copy the files by hand. It works in Next.js and Vite, with or without Tailwind. This repository holds the free, open source part: **107 components and 23 blocks**, plus the design and motion tokens they share. Every one of them has a live preview at [uiarc.dev](https://uiarc.dev).
 
+## Showcase
+
+A few favorites, recorded live from [uiarc.dev](https://uiarc.dev). Items marked <sup>Pro</sup> are part of [Arc Pro](https://uiarc.dev/pro) and are not in this repository; everything else installs from here for free.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/pro"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/cover-flow-dark.webp">
+<img alt="Cover flow: A depth rail of photos you can throw, with parallax inside each card." src="./.github/assets/showcase/cover-flow-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/pro"><b>Cover flow</b></a> <sup><a href="https://uiarc.dev/pro">Pro</a></sup><br>
+<sub>A depth rail of photos you can throw, with parallax inside each card.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/components/donut-chart"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/donut-chart-dark.webp">
+<img alt="Donut chart: Arcs morph between datasets while the total rolls into the center." src="./.github/assets/showcase/donut-chart-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/components/donut-chart"><b>Donut chart</b></a><br>
+<sub>Arcs morph between datasets while the total rolls into the center.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/components/billing-toggle"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/billing-toggle-dark.webp">
+<img alt="Billing toggle: Monthly and yearly prices roll into each other, savings included." src="./.github/assets/showcase/billing-toggle-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/components/billing-toggle"><b>Billing toggle</b></a><br>
+<sub>Monthly and yearly prices roll into each other, savings included.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/pro"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/orbit-logos-dark.webp">
+<img alt="Orbit logos: Integrations orbit your product mark. Filter them by category." src="./.github/assets/showcase/orbit-logos-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/pro"><b>Orbit logos</b></a> <sup><a href="https://uiarc.dev/pro">Pro</a></sup><br>
+<sub>Integrations orbit your product mark. Filter them by category.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/pro"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/wallet-stack-dark.webp">
+<img alt="Wallet stack: Fan a stack of cards and lift one out to see its activity." src="./.github/assets/showcase/wallet-stack-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/pro"><b>Wallet stack</b></a> <sup><a href="https://uiarc.dev/pro">Pro</a></sup><br>
+<sub>Fan a stack of cards and lift one out to see its activity.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/components/line-chart"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/line-chart-dark.webp">
+<img alt="Line chart: Switch the range and the line redraws against the previous period." src="./.github/assets/showcase/line-chart-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/components/line-chart"><b>Line chart</b></a><br>
+<sub>Switch the range and the line redraws against the previous period.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/components/number-field"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/number-field-dark.webp">
+<img alt="Number field: Bounded steppers that say so when you reach the limit." src="./.github/assets/showcase/number-field-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/components/number-field"><b>Number field</b></a><br>
+<sub>Bounded steppers that say so when you reach the limit.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://uiarc.dev/pro"><picture>
+<source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/activity-rings-dark.webp">
+<img alt="Activity rings: Daily goals sweep, count up and trace a second lap past 100%." src="./.github/assets/showcase/activity-rings-light.webp" width="100%">
+</picture></a>
+<br><a href="https://uiarc.dev/pro"><b>Activity rings</b></a> <sup><a href="https://uiarc.dev/pro">Pro</a></sup><br>
+<sub>Daily goals sweep, count up and trace a second lap past 100%.</sub>
+</td>
+</tr>
+</table>
+
 ## Contents
 
+- [Showcase](#showcase)
 - [Install](#install)
   - [Requirements](#requirements)
   - [With the shadcn CLI](#with-the-shadcn-cli)

@@ -299,9 +299,9 @@ export const contactExampleChannels: ContactChannel[] = [
 ];
 
 export const contactExampleOffices: ContactOffice[] = [
-  { city: "San Francisco", timeZone: "America/Los_Angeles", address: ["88 Kearny Street, Floor 4", "San Francisco, CA 94108"], email: "sf@example.com" },
-  { city: "New York", timeZone: "America/New_York", address: ["200 Park Avenue South, Suite 1210", "New York, NY 10003"], email: "nyc@example.com" },
-  { city: "Lisbon", timeZone: "Europe/Lisbon", address: ["Rua da Prata 80, 3º", "1100-415 Lisboa, Portugal"], email: "lisbon@example.com" },
+  { city: "San Francisco", timeZone: "America/Los_Angeles", address: ["100 Example Street, Floor 4", "San Francisco, CA 94000"], email: "sf@example.com" },
+  { city: "New York", timeZone: "America/New_York", address: ["200 Sample Avenue, Suite 12", "New York, NY 10000"], email: "nyc@example.com" },
+  { city: "Lisbon", timeZone: "Europe/Lisbon", address: ["Rua do Exemplo 10, 3º", "1000-000 Lisboa, Portugal"], email: "lisbon@example.com" },
 ];
 
 function useNow(intervalMs: number) {
