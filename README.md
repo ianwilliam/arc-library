@@ -12,8 +12,8 @@
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111111?style=flat-square"></a>
   <a href="https://uiarc.dev/docs/installation"><img alt="shadcn registry: @uiarc" src="https://img.shields.io/badge/shadcn%20registry-%40uiarc-111111?style=flat-square"></a>
   <a href="https://github.com/kuratlielia/arc-library/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/kuratlielia/arc-library/ci.yml?branch=main&style=flat-square&label=CI"></a>
-  <img alt="107 components" src="https://img.shields.io/badge/components-107-7747ff?style=flat-square">
-  <img alt="23 blocks" src="https://img.shields.io/badge/blocks-23-7747ff?style=flat-square">
+  <img alt="97 components" src="https://img.shields.io/badge/components-97-7747ff?style=flat-square">
+  <img alt="22 blocks" src="https://img.shields.io/badge/blocks-22-7747ff?style=flat-square">
   <img alt="React 19" src="https://img.shields.io/badge/React-19-111111?style=flat-square">
 </p>
 
@@ -29,7 +29,7 @@
   <a href="https://uiarc.dev/pro"><b>Pro</b></a>
 </p>
 
-Arc is a library of React components and blocks with calm, physical motion. Every item is plain source you own: CSS modules on a small set of design tokens, [Motion](https://motion.dev) for animation, keyboard support, and a reduced motion path for every animation. Install anything with the shadcn CLI or copy the files by hand. It works in Next.js and Vite, with or without Tailwind. This repository holds the free, open source part: **107 components and 23 blocks**, plus the design and motion tokens they share. Every one of them has a live preview at [uiarc.dev](https://uiarc.dev).
+Arc is a library of React components and blocks with calm, physical motion. Every item is plain source you own: CSS modules on a small set of design tokens, [Motion](https://motion.dev) for animation, keyboard support, and a reduced motion path for every animation. Install anything with the shadcn CLI or copy the files by hand. It works in Next.js and Vite, with or without Tailwind. This repository holds the free, open source part: **97 components and 22 blocks**, plus the design and motion tokens they share. Every one of them has a live preview at [uiarc.dev](https://uiarc.dev).
 
 ## Showcase
 
@@ -263,9 +263,9 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 
 ## Components
 
-107 free components, grouped as on the site. Click a name for the live preview and docs.
+97 free components, grouped as on the site. Click a name for the live preview and docs.
 
-[Actions](#actions) (17) · [Inputs](#inputs) (31) · [Disclosure](#disclosure) (13) · [Feedback](#feedback) (11) · [Data](#data) (27) · [Text](#text) (8)
+[Actions](#actions) (14) · [Inputs](#inputs) (29) · [Disclosure](#disclosure) (13) · [Feedback](#feedback) (8) · [Data](#data) (28) · [Text](#text) (4) · [Special](#special) (1)
 
 ### Actions
 
@@ -277,8 +277,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Action button](https://uiarc.dev/components/action-button) | A compact button for frequent toolbar actions. | `npx shadcn@latest add @uiarc/action-button` |
 | [Split button](https://uiarc.dev/components/split-button) | A primary action with a menu of nearby alternatives. | `npx shadcn@latest add @uiarc/split-button` |
 | [Copy button](https://uiarc.dev/components/copy-button) | Copy a value with immediate confirmation. | `npx shadcn@latest add @uiarc/copy-button` |
-| [Action swap](https://uiarc.dev/components/action-swap) | Swap an action label while preserving its place and intent. | `npx shadcn@latest add @uiarc/action-swap` |
-| [Icon morph](https://uiarc.dev/components/icon-morph) | Icons that morph between states: menu to close, play to pause, copy to check, and more. | `npx shadcn@latest add @uiarc/icon-morph` |
 | [Confirm morph](https://uiarc.dev/components/confirm-morph) | A destructive button that morphs into an inline confirmation, a spinner, and a result with undo. | `npx shadcn@latest add @uiarc/confirm-morph` |
 
 **Gestures**
@@ -287,7 +285,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | --- | --- | --- |
 | [Hold to confirm](https://uiarc.dev/components/hold-to-confirm) | Confirm a destructive action by holding, not tapping. | `npx shadcn@latest add @uiarc/hold-to-confirm` |
 | [Swipe actions](https://uiarc.dev/components/swipe-actions) | Reveal row actions with a swipe, or from the same actions in a menu. | `npx shadcn@latest add @uiarc/swipe-actions` |
-| [Reactions](https://uiarc.dev/components/reactions) | Acknowledge a post in one tap, with counts that roll. | `npx shadcn@latest add @uiarc/reactions` |
 
 **Menus**
 
@@ -315,9 +312,7 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Input](https://uiarc.dev/components/input) | A single line field with clear labels and useful states. | `npx shadcn@latest add @uiarc/input` |
 | [Textarea](https://uiarc.dev/components/textarea) | A multiline field for notes, descriptions, and longer text. | `npx shadcn@latest add @uiarc/textarea` |
 | [Password field](https://uiarc.dev/components/password-field) | Capture sensitive text with a visible reveal control. | `npx shadcn@latest add @uiarc/password-field` |
-| [Password strength](https://uiarc.dev/components/password-strength) | Show how strong a new password is while it is typed. | `npx shadcn@latest add @uiarc/password-strength` |
 | [Search field](https://uiarc.dev/components/search-field) | A recognizable search entry point with clear affordances. | `npx shadcn@latest add @uiarc/search-field` |
-| [Expanding search](https://uiarc.dev/components/expanding-search) | An icon that morphs into a search field with results beneath it. | `npx shadcn@latest add @uiarc/expanding-search` |
 | [Inline edit](https://uiarc.dev/components/inline-edit) | Rename in place: the text becomes a field without moving. | `npx shadcn@latest add @uiarc/inline-edit` |
 
 **Special inputs**
@@ -325,9 +320,10 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | Component | Description | Install |
 | --- | --- | --- |
 | [Number field](https://uiarc.dev/components/number-field) | Enter a bounded number with clear increment controls. | `npx shadcn@latest add @uiarc/number-field` |
-| [Money input](https://uiarc.dev/components/money-input) | A currency field with live grouping, stable width, rolling digits, and minor-unit output. | `npx shadcn@latest add @uiarc/money-input` |
 | [Phone input](https://uiarc.dev/components/phone-input) | A phone field with a country picker, formatting as you type, and E.164 output. | `npx shadcn@latest add @uiarc/phone-input` |
 | [Tag input](https://uiarc.dev/components/tag-input) | Turn short text values into removable tags. | `npx shadcn@latest add @uiarc/tag-input` |
+| [Mention input](https://uiarc.dev/components/mention-input) | A textarea with @people and #channel mentions that act as single tokens, with suggestions at the caret. | `npx shadcn@latest add @uiarc/mention-input` |
+| [Shortcut recorder](https://uiarc.dev/components/shortcut-recorder) | Record key combinations into key caps, with conflict warnings, Kbd, and a searchable cheatsheet. | `npx shadcn@latest add @uiarc/shortcut-recorder` |
 
 **Selects**
 
@@ -336,7 +332,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Select](https://uiarc.dev/components/select) | A compact choice field with a keyboard friendly menu. | `npx shadcn@latest add @uiarc/select` |
 | [Combobox](https://uiarc.dev/components/combobox) | Search and select from a list without leaving the field. | `npx shadcn@latest add @uiarc/combobox` |
 | [Multi-select](https://uiarc.dev/components/multi-select) | Select several values while keeping the field readable. | `npx shadcn@latest add @uiarc/multi-select` |
-| [Morph select](https://uiarc.dev/components/morph-select) | A select whose trigger grows into the list, with a gliding highlight and type-ahead. | `npx shadcn@latest add @uiarc/morph-select` |
 | [Chip group](https://uiarc.dev/components/chip-group) | Filter by a few facets with chips that morph as you pick them. | `npx shadcn@latest add @uiarc/chip-group` |
 
 **Toggles**
@@ -349,7 +344,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Radio group](https://uiarc.dev/components/radio-group) | Choose one option from a visible set. | `npx shadcn@latest add @uiarc/radio-group` |
 | [Switch](https://uiarc.dev/components/switch) | A tactile toggle for settings that take effect immediately. | `npx shadcn@latest add @uiarc/switch` |
 | [Segmented control](https://uiarc.dev/components/segmented-control) | Switch between a small set of related views. | `npx shadcn@latest add @uiarc/segmented-control` |
-| [Rating](https://uiarc.dev/components/rating) | A simple, accessible way to capture a numeric opinion. | `npx shadcn@latest add @uiarc/rating` |
 
 **Sliders**
 
@@ -372,6 +366,7 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | Component | Description | Install |
 | --- | --- | --- |
 | [Rich text editor](https://uiarc.dev/components/rich-text-editor) | A lightweight editor with markdown shortcuts, a floating toolbar, a slash menu, and HTML and markdown output. | `npx shadcn@latest add @uiarc/rich-text-editor` |
+| [Signature pad](https://uiarc.dev/components/signature-pad) | Smooth ink that thins with speed, with undo, replay, and PNG or SVG export. | `npx shadcn@latest add @uiarc/signature-pad` |
 | [File dropzone](https://uiarc.dev/components/file-dropzone) | A generous target for dropping one or more files. | `npx shadcn@latest add @uiarc/file-dropzone` |
 
 ### Disclosure
@@ -414,7 +409,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Toast](https://uiarc.dev/components/toast) | Brief confirmation for a completed background action. | `npx shadcn@latest add @uiarc/toast` |
 | [Toast stack](https://uiarc.dev/components/toast-stack) | Stack short results at the edge until you reach for them. | `npx shadcn@latest add @uiarc/toast-stack` |
 | [Announcement bar](https://uiarc.dev/components/announcement-bar) | A top banner that rotates messages, counts down, and collapses smoothly when dismissed. | `npx shadcn@latest add @uiarc/announcement-bar` |
-| [Cookie consent](https://uiarc.dev/components/cookie-consent) | A consent bar that morphs into preferences and folds into a reopen button. | `npx shadcn@latest add @uiarc/cookie-consent` |
 
 **Progress**
 
@@ -423,9 +417,7 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Progress](https://uiarc.dev/components/progress) | Show how much of a known task is complete. | `npx shadcn@latest add @uiarc/progress` |
 | [Skeleton](https://uiarc.dev/components/skeleton) | Reserve space while content is still loading. | `npx shadcn@latest add @uiarc/skeleton` |
 | [Stepper](https://uiarc.dev/components/stepper) | Show where a person is in a multi-step flow and what is done. | `npx shadcn@latest add @uiarc/stepper` |
-| [Countdown](https://uiarc.dev/components/countdown) | A launch countdown with rolling digits that morphs into a live state at zero. | `npx shadcn@latest add @uiarc/countdown` |
 | [Usage meter](https://uiarc.dev/components/usage-meter) | Show what fills an allowance and how close it is to the limit. | `npx shadcn@latest add @uiarc/usage-meter` |
-| [Onboarding checklist](https://uiarc.dev/components/onboarding-checklist) | Guide a new workspace through setup, one step at a time. | `npx shadcn@latest add @uiarc/onboarding-checklist` |
 
 ### Data
 
@@ -443,7 +435,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | --- | --- | --- |
 | [Card](https://uiarc.dev/components/card) | A contained group of related content and actions. | `npx shadcn@latest add @uiarc/card` |
 | [Metric card](https://uiarc.dev/components/metric-card) | A compact summary for a number that needs context. | `npx shadcn@latest add @uiarc/metric-card` |
-| [Stat card](https://uiarc.dev/components/stat-card) | A small, glanceable summary for a key number. | `npx shadcn@latest add @uiarc/stat-card` |
 | [Empty state](https://uiarc.dev/components/empty-state) | A useful next step when there is nothing to show yet. | `npx shadcn@latest add @uiarc/empty-state` |
 
 **Charts**
@@ -453,23 +444,25 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Line chart](https://uiarc.dev/components/line-chart) | A multi-series line chart with a gliding crosshair, legend toggles, and paths that morph between ranges. | `npx shadcn@latest add @uiarc/line-chart` |
 | [Bar chart](https://uiarc.dev/components/bar-chart) | Compare one measure across days and scrub any bar for its value. | `npx shadcn@latest add @uiarc/bar-chart` |
 | [Donut chart](https://uiarc.dev/components/donut-chart) | A donut whose arcs morph between datasets, with the active value rolling into the center. | `npx shadcn@latest add @uiarc/donut-chart` |
+| [Streamgraph](https://uiarc.dev/components/streamgraph) | Layered streams on a wiggle baseline that morph between ranges, with a layer you can isolate and read week by week. | `npx shadcn@latest add @uiarc/streamgraph` |
+| [Brush chart](https://uiarc.dev/components/brush-chart) | A dense time series with an overview strip: drag a window to zoom, resize it by its handles, and read events in place. | `npx shadcn@latest add @uiarc/brush-chart` |
+| [Waffle chart](https://uiarc.dev/components/waffle-chart) | A ten by ten unit chart where every cell is one percent, and cells fly to their new group when the data changes. | `npx shadcn@latest add @uiarc/waffle-chart` |
+| [Slope chart](https://uiarc.dev/components/slope-chart) | Before and after on two axes: lines draw in, rank moves sit beside each value, and switching datasets slides every line to its new slope. | `npx shadcn@latest add @uiarc/slope-chart` |
 | [Sparkline](https://uiarc.dev/components/sparkline) | Show a compact trend beside a value. | `npx shadcn@latest add @uiarc/sparkline` |
 | [Gauge](https://uiarc.dev/components/gauge) | Show a value against a known range. | `npx shadcn@latest add @uiarc/gauge` |
 | [Activity heatmap](https://uiarc.dev/components/activity-heatmap) | See a year of activity at a glance, one square per day. | `npx shadcn@latest add @uiarc/activity-heatmap` |
 | [Animated counter](https://uiarc.dev/components/animated-counter) | Give changing totals a clear sense of movement. | `npx shadcn@latest add @uiarc/animated-counter` |
+| [Ridgeline](https://uiarc.dev/components/ridgeline) | Overlapping distributions, one ridge per group: hover to lift a ridge and read its quartiles, switch datasets and every curve morphs. | `npx shadcn@latest add @uiarc/ridgeline` |
+| [Treemap](https://uiarc.dev/components/treemap) | A squarified treemap: click to drill and the tiles grow to fill the view, with a breadcrumb back and metrics that morph every tile. | `npx shadcn@latest add @uiarc/treemap` |
 
 **Tables**
 
 | Component | Description | Install |
 | --- | --- | --- |
-| [Plan matrix](https://uiarc.dev/components/plan-matrix) | An interactive plan comparison with column highlight, sticky plan header, collapsible categories, and an only-differences switch. | `npx shadcn@latest add @uiarc/plan-matrix` |
 | [Sortable data table](https://uiarc.dev/components/sortable-data-table) | Compare structured records with sortable columns. | `npx shadcn@latest add @uiarc/sortable-data-table` |
-| [Tree table](https://uiarc.dev/components/tree-table) | A table with nested rows, tri-state selection, hierarchy-preserving sort, and lazy-loaded children. | `npx shadcn@latest add @uiarc/tree-table` |
 | [Tree view](https://uiarc.dev/components/tree-view) | Navigate nested folders and structured content. | `npx shadcn@latest add @uiarc/tree-view` |
-| [Reorderable list](https://uiarc.dev/components/reorderable-list) | Organize items with direct drag and drop. | `npx shadcn@latest add @uiarc/reorderable-list` |
 | [Filter toolbar](https://uiarc.dev/components/filter-toolbar) | Keep collection filters close and easy to reset. | `npx shadcn@latest add @uiarc/filter-toolbar` |
 | [Code block](https://uiarc.dev/components/code-block) | Present code with legible hierarchy and copy access. | `npx shadcn@latest add @uiarc/code-block` |
-| [JSON viewer](https://uiarc.dev/components/json-viewer) | A collapsible JSON tree with search, paging for long arrays, and copy value or path. | `npx shadcn@latest add @uiarc/json-viewer` |
 
 **Activity**
 
@@ -495,15 +488,19 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Text reveal](https://uiarc.dev/components/text-reveal) | Reveal a short piece of content with restrained motion. | `npx shadcn@latest add @uiarc/text-reveal` |
 | [In-view title](https://uiarc.dev/components/in-view-title) | Bring a section title in as it scrolls into view. | `npx shadcn@latest add @uiarc/in-view-title` |
 | [Text morph](https://uiarc.dev/components/text-morph) | Morph a label into its next state, letter by letter. | `npx shadcn@latest add @uiarc/text-morph` |
-| [Word rotate](https://uiarc.dev/components/word-rotate) | Cycle one word in a sentence while the line makes room. | `npx shadcn@latest add @uiarc/word-rotate` |
-| [Text scramble](https://uiarc.dev/components/text-scramble) | Text that decodes into place character by character and morphs to new text without changing width. | `npx shadcn@latest add @uiarc/text-scramble` |
 | [Text shimmer](https://uiarc.dev/components/text-shimmer) | Show ongoing work with a calm light across the words. | `npx shadcn@latest add @uiarc/text-shimmer` |
-| [Scroll highlight](https://uiarc.dev/components/scroll-highlight) | Bring a paragraph into focus word by word as it is read. | `npx shadcn@latest add @uiarc/scroll-highlight` |
-| [Text stream](https://uiarc.dev/components/text-stream) | Stream a response in, each new word settling into focus. | `npx shadcn@latest add @uiarc/text-stream` |
+
+### Special
+
+**Type**
+
+| Component | Description | Install |
+| --- | --- | --- |
+| [Slot text](https://uiarc.dev/components/slot-text) | Text and numbers that spin into their new value on staggered slot machine reels. | `npx shadcn@latest add @uiarc/slot-text` |
 
 ## Blocks
 
-23 free blocks: complete sections and screens built from Arc components.
+22 free blocks: complete sections and screens built from Arc components.
 
 ### App shell
 
@@ -513,7 +510,6 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Command palette](https://uiarc.dev/components/blocks/command-palette) | A complete keyboard driven action surface with search, grouped results, and shortcuts. | `npx shadcn@latest add @uiarc/command-palette` |
 | [Notification center](https://uiarc.dev/components/blocks/notification-center) | A home for updates with read state, grouped information, and animated disclosure. | `npx shadcn@latest add @uiarc/notification-center` |
 | [Empty states](https://uiarc.dev/components/blocks/empty-states) | Four empty states in one illustration whose shapes morph between scenes as you switch tabs. | `npx shadcn@latest add @uiarc/empty-states` |
-| [Error pages](https://uiarc.dev/components/blocks/error-pages) | Calm 404, 500, and maintenance pages with an animated Arc mark, search, retry, and notify. | `npx shadcn@latest add @uiarc/error-pages` |
 
 ### Auth
 
@@ -540,7 +536,7 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 
 | Block | Description | Install |
 | --- | --- | --- |
-| [Hero section](https://uiarc.dev/components/blocks/hero-section) | Landing page heroes: centered with an install command, split beside a live product card, or plain text. | `npx shadcn@latest add @uiarc/hero-section` |
+| [Hero section](https://uiarc.dev/components/blocks/hero-section) | Three full screen SaaS heroes: a live dashboard rising from the bottom edge over a drifting mesh, a workflow graph that routes sample events node by node, and editorial type over a mesh gradient. | `npx shadcn@latest add @uiarc/hero-section` |
 
 ### Features
 
@@ -553,13 +549,13 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | Block | Description | Install |
 | --- | --- | --- |
 | [Logo marquee](https://uiarc.dev/components/blocks/logo-marquee) | A quiet, continuously moving row of brand marks with a pause control. | `npx shadcn@latest add @uiarc/logo-marquee` |
-| [Stats band](https://uiarc.dev/components/blocks/stats-band) | Three or four headline numbers that count up in view, plain or divided by hairlines. | `npx shadcn@latest add @uiarc/stats-band` |
+| [Stats band](https://uiarc.dev/components/blocks/stats-band) | Headline numbers that count up in view, each with a tiny visual that proves it and a context line on hover, plain or in a hairline grid. | `npx shadcn@latest add @uiarc/stats-band` |
 
 ### Content
 
 | Block | Description | Install |
 | --- | --- | --- |
-| [Changelog feed](https://uiarc.dev/components/blocks/changelog-feed) | Release notes you can filter, open in place, and scroll through month by month. | Copy the source |
+| [Changelog feed](https://uiarc.dev/components/blocks/changelog-feed) | Release notes you can filter, open in place, and scroll through month by month. | `npx shadcn@latest add @uiarc/changelog-feed` |
 | [FAQ section](https://uiarc.dev/components/blocks/faq-section) | FAQs as an accordion, a topic rail, or a searchable list that highlights matches. | `npx shadcn@latest add @uiarc/faq-section` |
 | [Contact section](https://uiarc.dev/components/blocks/contact-section) | A validated contact form that morphs into a confirmation, support channels, and office cards with local times. | `npx shadcn@latest add @uiarc/contact-section` |
 | [Blog grid](https://uiarc.dev/components/blocks/blog-grid) | A blog index with a featured post, category filter, post cards, pagination and an in-place reader. | `npx shadcn@latest add @uiarc/blog-grid` |
@@ -571,7 +567,7 @@ More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](htt
 | [Site header](https://uiarc.dev/components/blocks/site-header) | A sticky website header that turns solid on scroll, with a gliding active link, mega menu panels, and a mobile sheet. | `npx shadcn@latest add @uiarc/site-header` |
 | [Site footer](https://uiarc.dev/components/blocks/site-footer) | A website footer with link columns and newsletter, a minimal layout, and a large fading Arc mark. | `npx shadcn@latest add @uiarc/site-footer` |
 | [CTA section](https://uiarc.dev/components/blocks/cta-section) | A call to action as a centered closing section, a split beside a setup card that completes itself, or a dismissible banner. | `npx shadcn@latest add @uiarc/cta-section` |
-| [Newsletter signup](https://uiarc.dev/components/blocks/newsletter-signup) | An email signup that validates in place and morphs into a confirmation, inline or as a card. | `npx shadcn@latest add @uiarc/newsletter-signup` |
+| [Newsletter signup](https://uiarc.dev/components/blocks/newsletter-signup) | An email signup framed by a stack of past issues; subscribing drops the next issue, addressed to you, onto the front. | `npx shadcn@latest add @uiarc/newsletter-signup` |
 
 ## AI tools
 
@@ -631,7 +627,7 @@ Arc follows the `data-theme` attribute on `<html>`, not the `dark` class. Set `d
 
 <br>
 
-A few items use Next.js primitives: [`avatar`](https://uiarc.dev/components/avatar), [`breadcrumb`](https://uiarc.dev/components/breadcrumb), [`changelog-feed`](https://uiarc.dev/components/blocks/changelog-feed), [`site-header`](https://uiarc.dev/components/blocks/site-header), [`hero-section`](https://uiarc.dev/components/blocks/hero-section). In Vite, replace `Image` with `<img>` and `Link` with `<a>`; the props map one to one for these uses.
+A few items use Next.js primitives: [`avatar`](https://uiarc.dev/components/avatar), [`breadcrumb`](https://uiarc.dev/components/breadcrumb), [`changelog-feed`](https://uiarc.dev/components/blocks/changelog-feed), [`site-header`](https://uiarc.dev/components/blocks/site-header), [`newsletter-signup`](https://uiarc.dev/components/blocks/newsletter-signup). In Vite, replace `Image` with `<img>` and `Link` with `<a>`; the props map one to one for these uses.
 
 </details>
 

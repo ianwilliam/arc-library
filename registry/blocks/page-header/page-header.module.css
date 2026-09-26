@@ -152,7 +152,8 @@
   .createText { display: none; }
   .actions .create { width: var(--control-height-sm); padding-inline: 0; }
 }
-@media (max-width: 560px) { .frame { height: 600px; border-radius: 14px; } }
+/* On a phone the frame is the screen, so it takes most of it rather than stopping short with the body cut mid list. */
+@media (max-width: 560px) { .frame { height: clamp(560px, calc(100svh - 48px), 760px); border-radius: 14px; } }
 
 @media (prefers-reduced-motion: reduce) {
   .crumb, .compact, .tab, .tab::before, .check, .issueTitle { transition: none; }

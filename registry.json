@@ -69,45 +69,6 @@
       }
     },
     {
-      "name": "action-swap",
-      "type": "registry:ui",
-      "title": "Action swap",
-      "description": "Swap an action label while preserving its place and intent.",
-      "categories": [
-        "actions"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/action-swap/action-swap.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/action-swap/action-swap.tsx"
-        },
-        {
-          "path": "registry/components/action-swap/action-swap.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/action-swap/action-swap.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/action-swap",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/action-swap",
-        "markdown": "https://uiarc.dev/components/action-swap/markdown",
-        "tags": [
-          "action",
-          "motion"
-        ]
-      }
-    },
-    {
       "name": "action-button",
       "type": "registry:ui",
       "title": "Action button",
@@ -1664,45 +1625,6 @@
       }
     },
     {
-      "name": "rating",
-      "type": "registry:ui",
-      "title": "Rating",
-      "description": "A simple, accessible way to capture a numeric opinion.",
-      "categories": [
-        "inputs"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/rating/rating.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/rating/rating.tsx"
-        },
-        {
-          "path": "registry/components/rating/rating.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/rating/rating.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/rating",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/rating",
-        "markdown": "https://uiarc.dev/components/rating/markdown",
-        "tags": [
-          "input",
-          "feedback"
-        ]
-      }
-    },
-    {
       "name": "progress",
       "type": "registry:ui",
       "title": "Progress",
@@ -1942,45 +1864,6 @@
         "tags": [
           "data",
           "guidance"
-        ]
-      }
-    },
-    {
-      "name": "stat-card",
-      "type": "registry:ui",
-      "title": "Stat card",
-      "description": "A small, glanceable summary for a key number.",
-      "categories": [
-        "data"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/stat-card/stat-card.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/stat-card/stat-card.tsx"
-        },
-        {
-          "path": "registry/components/stat-card/stat-card.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/stat-card/stat-card.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/stat-card",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/stat-card",
-        "markdown": "https://uiarc.dev/components/stat-card/markdown",
-        "tags": [
-          "data",
-          "summary"
         ]
       }
     },
@@ -2310,45 +2193,6 @@
       }
     },
     {
-      "name": "reorderable-list",
-      "type": "registry:ui",
-      "title": "Reorderable list",
-      "description": "Organize items with direct drag and drop.",
-      "categories": [
-        "data"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/reorderable-list/reorderable-list.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/reorderable-list/reorderable-list.tsx"
-        },
-        {
-          "path": "registry/components/reorderable-list/reorderable-list.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/reorderable-list/reorderable-list.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/reorderable-list",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/reorderable-list",
-        "markdown": "https://uiarc.dev/components/reorderable-list/markdown",
-        "tags": [
-          "data",
-          "interaction"
-        ]
-      }
-    },
-    {
       "name": "text-reveal",
       "type": "registry:ui",
       "title": "Text reveal",
@@ -2464,45 +2308,6 @@
       }
     },
     {
-      "name": "word-rotate",
-      "type": "registry:ui",
-      "title": "Word rotate",
-      "description": "Cycle one word in a sentence while the line makes room.",
-      "categories": [
-        "text"
-      ],
-      "dependencies": [
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/word-rotate/word-rotate.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/word-rotate/word-rotate.tsx"
-        },
-        {
-          "path": "registry/components/word-rotate/word-rotate.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/word-rotate/word-rotate.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/word-rotate",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/word-rotate",
-        "markdown": "https://uiarc.dev/components/word-rotate/markdown",
-        "tags": [
-          "text",
-          "motion",
-          "heading"
-        ]
-      }
-    },
-    {
       "name": "text-shimmer",
       "type": "registry:ui",
       "title": "Text shimmer",
@@ -2538,85 +2343,6 @@
           "text",
           "motion",
           "loading"
-        ]
-      }
-    },
-    {
-      "name": "scroll-highlight",
-      "type": "registry:ui",
-      "title": "Scroll highlight",
-      "description": "Bring a paragraph into focus word by word as it is read.",
-      "categories": [
-        "text"
-      ],
-      "dependencies": [
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/scroll-highlight/scroll-highlight.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/scroll-highlight/scroll-highlight.tsx"
-        },
-        {
-          "path": "registry/components/scroll-highlight/scroll-highlight.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/scroll-highlight/scroll-highlight.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/scroll-highlight",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/scroll-highlight",
-        "markdown": "https://uiarc.dev/components/scroll-highlight/markdown",
-        "tags": [
-          "text",
-          "motion",
-          "scroll"
-        ]
-      }
-    },
-    {
-      "name": "text-stream",
-      "type": "registry:ui",
-      "title": "Text stream",
-      "description": "Stream a response in, each new word settling into focus.",
-      "categories": [
-        "text"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/text-stream/text-stream.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-stream/text-stream.tsx"
-        },
-        {
-          "path": "registry/components/text-stream/text-stream.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-stream/text-stream.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/text-stream",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/text-stream",
-        "markdown": "https://uiarc.dev/components/text-stream/markdown",
-        "tags": [
-          "text",
-          "motion",
-          "ai"
         ]
       }
     },
@@ -2702,47 +2428,6 @@
       }
     },
     {
-      "name": "reactions",
-      "type": "registry:ui",
-      "title": "Reactions",
-      "description": "Acknowledge a post in one tap, with counts that roll.",
-      "categories": [
-        "actions"
-      ],
-      "dependencies": [
-        "@radix-ui/react-popover",
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/reactions/reactions.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/reactions/reactions.tsx"
-        },
-        {
-          "path": "registry/components/reactions/reactions.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/reactions/reactions.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/reactions",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/reactions",
-        "markdown": "https://uiarc.dev/components/reactions/markdown",
-        "tags": [
-          "reactions",
-          "social",
-          "comments"
-        ]
-      }
-    },
-    {
       "name": "slider",
       "type": "registry:ui",
       "title": "Slider",
@@ -2822,46 +2507,6 @@
       }
     },
     {
-      "name": "expanding-search",
-      "type": "registry:ui",
-      "title": "Expanding search",
-      "description": "An icon that morphs into a search field with results beneath it.",
-      "categories": [
-        "inputs"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/expanding-search/expanding-search.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/expanding-search/expanding-search.tsx"
-        },
-        {
-          "path": "registry/components/expanding-search/expanding-search.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/expanding-search/expanding-search.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/expanding-search",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/expanding-search",
-        "markdown": "https://uiarc.dev/components/expanding-search/markdown",
-        "tags": [
-          "search",
-          "field",
-          "motion"
-        ]
-      }
-    },
-    {
       "name": "chip-group",
       "type": "registry:ui",
       "title": "Chip group",
@@ -2897,45 +2542,6 @@
           "chips",
           "filter",
           "toggle"
-        ]
-      }
-    },
-    {
-      "name": "password-strength",
-      "type": "registry:ui",
-      "title": "Password strength",
-      "description": "Show how strong a new password is while it is typed.",
-      "categories": [
-        "inputs"
-      ],
-      "dependencies": [
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/password-strength/password-strength.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/password-strength/password-strength.tsx"
-        },
-        {
-          "path": "registry/components/password-strength/password-strength.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/password-strength/password-strength.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/password-strength",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/password-strength",
-        "markdown": "https://uiarc.dev/components/password-strength/markdown",
-        "tags": [
-          "password",
-          "strength meter",
-          "validation"
         ]
       }
     },
@@ -3137,46 +2743,6 @@
           "meter",
           "usage",
           "storage"
-        ]
-      }
-    },
-    {
-      "name": "onboarding-checklist",
-      "type": "registry:ui",
-      "title": "Onboarding checklist",
-      "description": "Guide a new workspace through setup, one step at a time.",
-      "categories": [
-        "feedback"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/onboarding-checklist/onboarding-checklist.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/onboarding-checklist/onboarding-checklist.tsx"
-        },
-        {
-          "path": "registry/components/onboarding-checklist/onboarding-checklist.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/onboarding-checklist/onboarding-checklist.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/onboarding-checklist",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/onboarding-checklist",
-        "markdown": "https://uiarc.dev/components/onboarding-checklist/markdown",
-        "tags": [
-          "onboarding",
-          "checklist",
-          "getting started"
         ]
       }
     },
@@ -3456,14 +3022,15 @@
       }
     },
     {
-      "name": "icon-morph",
+      "name": "signature-pad",
       "type": "registry:ui",
-      "title": "Icon morph",
-      "description": "Icons that morph between states: menu to close, play to pause, copy to check, and more.",
+      "title": "Signature pad",
+      "description": "Smooth ink that thins with speed, with undo, replay, and PNG or SVG export.",
       "categories": [
-        "actions"
+        "inputs"
       ],
       "dependencies": [
+        "lucide-react",
         "motion"
       ],
       "registryDependencies": [
@@ -3471,24 +3038,24 @@
       ],
       "files": [
         {
-          "path": "registry/components/icon-morph/icon-morph.tsx",
+          "path": "registry/components/signature-pad/signature-pad.tsx",
           "type": "registry:file",
-          "target": "~/registry/components/icon-morph/icon-morph.tsx"
+          "target": "~/registry/components/signature-pad/signature-pad.tsx"
         },
         {
-          "path": "registry/components/icon-morph/icon-morph.module.css",
+          "path": "registry/components/signature-pad/signature-pad.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/icon-morph/icon-morph.module.css"
+          "target": "~/registry/components/signature-pad/signature-pad.module.css"
         }
       ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/icon-morph",
+      "docs": "Docs and live preview: https://uiarc.dev/components/signature-pad",
       "meta": {
         "tier": "free",
         "kind": "component",
-        "docs": "https://uiarc.dev/components/icon-morph",
-        "markdown": "https://uiarc.dev/components/icon-morph/markdown",
+        "docs": "https://uiarc.dev/components/signature-pad",
+        "markdown": "https://uiarc.dev/components/signature-pad/markdown",
         "tags": [
-          "actions",
+          "inputs",
           "new"
         ]
       }
@@ -3583,45 +3150,6 @@
       }
     },
     {
-      "name": "morph-select",
-      "type": "registry:ui",
-      "title": "Morph select",
-      "description": "A select whose trigger grows into the list, with a gliding highlight and type-ahead.",
-      "categories": [
-        "inputs"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/morph-select/morph-select.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/morph-select/morph-select.tsx"
-        },
-        {
-          "path": "registry/components/morph-select/morph-select.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/morph-select/morph-select.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/morph-select",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/morph-select",
-        "markdown": "https://uiarc.dev/components/morph-select/markdown",
-        "tags": [
-          "inputs",
-          "new"
-        ]
-      }
-    },
-    {
       "name": "line-chart",
       "type": "registry:ui",
       "title": "Line chart",
@@ -3698,12 +3226,12 @@
       }
     },
     {
-      "name": "countdown",
+      "name": "streamgraph",
       "type": "registry:ui",
-      "title": "Countdown",
-      "description": "A launch countdown with rolling digits that morphs into a live state at zero.",
+      "title": "Streamgraph",
+      "description": "Layered streams on a wiggle baseline that morph between ranges, with a layer you can isolate and read week by week.",
       "categories": [
-        "feedback"
+        "data"
       ],
       "dependencies": [
         "motion"
@@ -3713,86 +3241,220 @@
       ],
       "files": [
         {
-          "path": "registry/components/countdown/countdown.tsx",
+          "path": "registry/components/streamgraph/streamgraph.tsx",
           "type": "registry:file",
-          "target": "~/registry/components/countdown/countdown.tsx"
+          "target": "~/registry/components/streamgraph/streamgraph.tsx"
         },
         {
-          "path": "registry/components/countdown/countdown.module.css",
+          "path": "registry/components/streamgraph/streamgraph.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/countdown/countdown.module.css"
+          "target": "~/registry/components/streamgraph/streamgraph.module.css"
         }
       ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/countdown",
+      "docs": "Docs and live preview: https://uiarc.dev/components/streamgraph",
       "meta": {
         "tier": "free",
         "kind": "component",
-        "docs": "https://uiarc.dev/components/countdown",
-        "markdown": "https://uiarc.dev/components/countdown/markdown",
+        "docs": "https://uiarc.dev/components/streamgraph",
+        "markdown": "https://uiarc.dev/components/streamgraph/markdown",
         "tags": [
-          "feedback",
+          "data",
+          "chart",
           "new"
         ]
       }
     },
     {
-      "name": "cookie-consent",
+      "name": "brush-chart",
       "type": "registry:ui",
-      "title": "Cookie consent",
-      "description": "A consent bar that morphs into preferences and folds into a reopen button.",
+      "title": "Brush chart",
+      "description": "A dense time series with an overview strip: drag a window to zoom, resize it by its handles, and read events in place.",
       "categories": [
-        "feedback"
+        "data"
       ],
       "dependencies": [
-        "@radix-ui/react-switch",
-        "lucide-react",
         "motion"
       ],
       "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json",
-        "https://uiarc.dev/r/button.json",
-        "https://uiarc.dev/r/switch.json"
+        "https://uiarc.dev/r/arc-foundation.json"
       ],
       "files": [
         {
-          "path": "registry/components/cookie-consent/cookie-consent.tsx",
+          "path": "registry/components/brush-chart/brush-chart.tsx",
           "type": "registry:file",
-          "target": "~/registry/components/cookie-consent/cookie-consent.tsx"
+          "target": "~/registry/components/brush-chart/brush-chart.tsx"
         },
         {
-          "path": "registry/components/cookie-consent/cookie-consent.module.css",
+          "path": "registry/components/brush-chart/brush-chart.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/cookie-consent/cookie-consent.module.css"
-        },
-        {
-          "path": "registry/components/switch/switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.tsx"
-        },
-        {
-          "path": "registry/components/switch/switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.module.css"
-        },
-        {
-          "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
-        },
-        {
-          "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "target": "~/registry/components/brush-chart/brush-chart.module.css"
         }
       ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/cookie-consent",
+      "docs": "Docs and live preview: https://uiarc.dev/components/brush-chart",
       "meta": {
         "tier": "free",
         "kind": "component",
-        "docs": "https://uiarc.dev/components/cookie-consent",
-        "markdown": "https://uiarc.dev/components/cookie-consent/markdown",
+        "docs": "https://uiarc.dev/components/brush-chart",
+        "markdown": "https://uiarc.dev/components/brush-chart/markdown",
         "tags": [
-          "feedback",
+          "data",
+          "chart",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "ridgeline",
+      "type": "registry:ui",
+      "title": "Ridgeline",
+      "description": "Overlapping distributions, one ridge per group: hover to lift a ridge and read its quartiles, switch datasets and every curve morphs.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/ridgeline/ridgeline.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/ridgeline/ridgeline.tsx"
+        },
+        {
+          "path": "registry/components/ridgeline/ridgeline.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/ridgeline/ridgeline.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/ridgeline",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/ridgeline",
+        "markdown": "https://uiarc.dev/components/ridgeline/markdown",
+        "tags": [
+          "data",
+          "chart",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "treemap",
+      "type": "registry:ui",
+      "title": "Treemap",
+      "description": "A squarified treemap: click to drill and the tiles grow to fill the view, with a breadcrumb back and metrics that morph every tile.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/treemap/treemap.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/treemap/treemap.tsx"
+        },
+        {
+          "path": "registry/components/treemap/treemap.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/treemap/treemap.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/treemap",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/treemap",
+        "markdown": "https://uiarc.dev/components/treemap/markdown",
+        "tags": [
+          "data",
+          "chart",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "waffle-chart",
+      "type": "registry:ui",
+      "title": "Waffle chart",
+      "description": "A ten by ten unit chart where every cell is one percent, and cells fly to their new group when the data changes.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/waffle-chart/waffle-chart.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/waffle-chart/waffle-chart.tsx"
+        },
+        {
+          "path": "registry/components/waffle-chart/waffle-chart.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/waffle-chart/waffle-chart.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/waffle-chart",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/waffle-chart",
+        "markdown": "https://uiarc.dev/components/waffle-chart/markdown",
+        "tags": [
+          "data",
+          "chart",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "slope-chart",
+      "type": "registry:ui",
+      "title": "Slope chart",
+      "description": "Before and after on two axes: lines draw in, rank moves sit beside each value, and switching datasets slides every line to its new slope.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/slope-chart/slope-chart.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/slope-chart/slope-chart.tsx"
+        },
+        {
+          "path": "registry/components/slope-chart/slope-chart.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/slope-chart/slope-chart.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/slope-chart",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/slope-chart",
+        "markdown": "https://uiarc.dev/components/slope-chart/markdown",
+        "tags": [
+          "data",
+          "chart",
           "new"
         ]
       }
@@ -3837,96 +3499,6 @@
       }
     },
     {
-      "name": "json-viewer",
-      "type": "registry:ui",
-      "title": "JSON viewer",
-      "description": "A collapsible JSON tree with search, paging for long arrays, and copy value or path.",
-      "categories": [
-        "data"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/json-viewer/json-viewer.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/json-viewer/json-viewer.tsx"
-        },
-        {
-          "path": "registry/components/json-viewer/json-viewer.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/json-viewer/json-viewer.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/json-viewer",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/json-viewer",
-        "markdown": "https://uiarc.dev/components/json-viewer/markdown",
-        "tags": [
-          "data",
-          "new"
-        ]
-      }
-    },
-    {
-      "name": "tree-table",
-      "type": "registry:ui",
-      "title": "Tree table",
-      "description": "A table with nested rows, tri-state selection, hierarchy-preserving sort, and lazy-loaded children.",
-      "categories": [
-        "data"
-      ],
-      "dependencies": [
-        "@radix-ui/react-checkbox",
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json",
-        "https://uiarc.dev/r/checkbox.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/tree-table/tree-table.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/tree-table/tree-table.tsx"
-        },
-        {
-          "path": "registry/components/tree-table/tree-table.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/tree-table/tree-table.module.css"
-        },
-        {
-          "path": "registry/components/checkbox/checkbox.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.tsx"
-        },
-        {
-          "path": "registry/components/checkbox/checkbox.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/tree-table",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/tree-table",
-        "markdown": "https://uiarc.dev/components/tree-table/markdown",
-        "tags": [
-          "data",
-          "new"
-        ]
-      }
-    },
-    {
       "name": "phone-input",
       "type": "registry:ui",
       "title": "Phone input",
@@ -3966,10 +3538,10 @@
       }
     },
     {
-      "name": "money-input",
+      "name": "shortcut-recorder",
       "type": "registry:ui",
-      "title": "Money input",
-      "description": "A currency field with live grouping, stable width, rolling digits, and minor-unit output.",
+      "title": "Shortcut recorder",
+      "description": "Record key combinations into key caps, with conflict warnings, Kbd, and a searchable cheatsheet.",
       "categories": [
         "inputs"
       ],
@@ -3982,62 +3554,24 @@
       ],
       "files": [
         {
-          "path": "registry/components/money-input/money-input.tsx",
+          "path": "registry/components/shortcut-recorder/shortcut-recorder.tsx",
           "type": "registry:file",
-          "target": "~/registry/components/money-input/money-input.tsx"
+          "target": "~/registry/components/shortcut-recorder/shortcut-recorder.tsx"
         },
         {
-          "path": "registry/components/money-input/money-input.module.css",
+          "path": "registry/components/shortcut-recorder/shortcut-recorder.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/money-input/money-input.module.css"
+          "target": "~/registry/components/shortcut-recorder/shortcut-recorder.module.css"
         }
       ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/money-input",
+      "docs": "Docs and live preview: https://uiarc.dev/components/shortcut-recorder",
       "meta": {
         "tier": "free",
         "kind": "component",
-        "docs": "https://uiarc.dev/components/money-input",
-        "markdown": "https://uiarc.dev/components/money-input/markdown",
+        "docs": "https://uiarc.dev/components/shortcut-recorder",
+        "markdown": "https://uiarc.dev/components/shortcut-recorder/markdown",
         "tags": [
           "inputs",
-          "new"
-        ]
-      }
-    },
-    {
-      "name": "text-scramble",
-      "type": "registry:ui",
-      "title": "Text scramble",
-      "description": "Text that decodes into place character by character and morphs to new text without changing width.",
-      "categories": [
-        "text"
-      ],
-      "dependencies": [
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/text-scramble/text-scramble.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-scramble/text-scramble.tsx"
-        },
-        {
-          "path": "registry/components/text-scramble/text-scramble.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-scramble/text-scramble.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/text-scramble",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/text-scramble",
-        "markdown": "https://uiarc.dev/components/text-scramble/markdown",
-        "tags": [
-          "text",
           "new"
         ]
       }
@@ -4077,6 +3611,45 @@
         "markdown": "https://uiarc.dev/components/confirm-morph/markdown",
         "tags": [
           "actions",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "mention-input",
+      "type": "registry:ui",
+      "title": "Mention input",
+      "description": "A textarea with @people and #channel mentions that act as single tokens, with suggestions at the caret.",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/mention-input/mention-input.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/mention-input/mention-input.tsx"
+        },
+        {
+          "path": "registry/components/mention-input/mention-input.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/mention-input/mention-input.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/mention-input",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/mention-input",
+        "markdown": "https://uiarc.dev/components/mention-input/markdown",
+        "tags": [
+          "inputs",
           "new"
         ]
       }
@@ -4209,45 +3782,6 @@
       }
     },
     {
-      "name": "plan-matrix",
-      "type": "registry:ui",
-      "title": "Plan matrix",
-      "description": "An interactive plan comparison with column highlight, sticky plan header, collapsible categories, and an only-differences switch.",
-      "categories": [
-        "data"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/components/plan-matrix/plan-matrix.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/plan-matrix/plan-matrix.tsx"
-        },
-        {
-          "path": "registry/components/plan-matrix/plan-matrix.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/plan-matrix/plan-matrix.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/plan-matrix",
-      "meta": {
-        "tier": "free",
-        "kind": "component",
-        "docs": "https://uiarc.dev/components/plan-matrix",
-        "markdown": "https://uiarc.dev/components/plan-matrix/markdown",
-        "tags": [
-          "data",
-          "new"
-        ]
-      }
-    },
-    {
       "name": "scroll-area",
       "type": "registry:ui",
       "title": "Scroll area",
@@ -4356,6 +3890,46 @@
         "markdown": "https://uiarc.dev/components/comment-thread/markdown",
         "tags": [
           "data",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "slot-text",
+      "type": "registry:ui",
+      "title": "Slot text",
+      "description": "Text and numbers that spin into their new value on staggered slot machine reels.",
+      "categories": [
+        "special"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/slot-text/slot-text.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/slot-text/slot-text.tsx"
+        },
+        {
+          "path": "registry/components/slot-text/slot-text.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/slot-text/slot-text.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/slot-text",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/slot-text",
+        "markdown": "https://uiarc.dev/components/slot-text/markdown",
+        "tags": [
+          "special",
+          "text",
+          "numbers",
           "new"
         ]
       }
@@ -4703,6 +4277,62 @@
         "kind": "block",
         "docs": "https://uiarc.dev/components/blocks/otp-input",
         "markdown": "https://uiarc.dev/components/blocks/otp-input/markdown"
+      }
+    },
+    {
+      "name": "changelog-feed",
+      "type": "registry:block",
+      "title": "Changelog feed",
+      "description": "Release notes you can filter, open in place, and scroll through month by month.",
+      "categories": [
+        "blocks"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json",
+        "https://uiarc.dev/r/copy-button.json"
+      ],
+      "files": [
+        {
+          "path": "registry/blocks/changelog-feed/changelog-feed.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/changelog-feed/changelog-feed.tsx"
+        },
+        {
+          "path": "registry/blocks/changelog-feed/changelog-feed.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/changelog-feed/changelog-feed.module.css"
+        },
+        {
+          "path": "lib/media.ts",
+          "type": "registry:lib",
+          "target": "~/lib/media.ts"
+        },
+        {
+          "path": "registry/components/copy-button/copy-button.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/copy-button/copy-button.tsx"
+        },
+        {
+          "path": "registry/components/copy-button/copy-button.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/copy-button/copy-button.module.css"
+        },
+        {
+          "path": "lib/use-copy-feedback.ts",
+          "type": "registry:lib",
+          "target": "~/lib/use-copy-feedback.ts"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/blocks/changelog-feed",
+      "meta": {
+        "tier": "free",
+        "kind": "block",
+        "docs": "https://uiarc.dev/components/blocks/changelog-feed",
+        "markdown": "https://uiarc.dev/components/blocks/changelog-feed/markdown"
       }
     },
     {
@@ -5122,23 +4752,22 @@
       "name": "hero-section",
       "type": "registry:block",
       "title": "Hero section",
-      "description": "Landing page heroes: centered with an install command, split beside a live product card, or plain text.",
+      "description": "Three full screen SaaS heroes: a live dashboard rising from the bottom edge over a drifting mesh, a workflow graph that routes sample events node by node, and editorial type over a mesh gradient.",
       "categories": [
         "blocks"
       ],
       "dependencies": [
-        "@radix-ui/react-switch",
         "lucide-react",
         "motion"
       ],
       "registryDependencies": [
         "https://uiarc.dev/r/arc-foundation.json",
-        "https://uiarc.dev/r/animated-counter.json",
         "https://uiarc.dev/r/avatar.json",
         "https://uiarc.dev/r/button.json",
         "https://uiarc.dev/r/copy-button.json",
+        "https://uiarc.dev/r/line-chart.json",
         "https://uiarc.dev/r/segmented-control.json",
-        "https://uiarc.dev/r/switch.json"
+        "https://uiarc.dev/r/sparkline.json"
       ],
       "files": [
         {
@@ -5152,29 +4781,19 @@
           "target": "~/registry/blocks/hero-section/hero-section.module.css"
         },
         {
-          "path": "lib/media.ts",
-          "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "path": "registry/blocks/hero-section/hero-content.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-content.tsx"
         },
         {
-          "path": "registry/components/switch/switch.tsx",
+          "path": "registry/blocks/hero-section/hero-content.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/switch/switch.tsx"
+          "target": "~/registry/blocks/hero-section/hero-content.module.css"
         },
         {
-          "path": "registry/components/switch/switch.module.css",
+          "path": "registry/blocks/hero-section/hero-motion.ts",
           "type": "registry:file",
-          "target": "~/registry/components/switch/switch.module.css"
-        },
-        {
-          "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
-        },
-        {
-          "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "target": "~/registry/blocks/hero-section/hero-motion.ts"
         },
         {
           "path": "registry/components/copy-button/copy-button.tsx",
@@ -5202,6 +4821,66 @@
           "target": "~/registry/components/button/button.module.css"
         },
         {
+          "path": "registry/blocks/hero-section/hero-mesh.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-mesh.tsx"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-mesh.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-mesh.module.css"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-cadence.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-cadence.tsx"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-cadence.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-cadence.module.css"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-relay.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-relay.tsx"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-relay.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-relay.module.css"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-lumen.tsx",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-lumen.tsx"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-lumen.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-lumen.module.css"
+        },
+        {
+          "path": "registry/blocks/hero-section/hero-lumen-data.ts",
+          "type": "registry:file",
+          "target": "~/registry/blocks/hero-section/hero-lumen-data.ts"
+        },
+        {
+          "path": "registry/components/line-chart/line-chart.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/line-chart/line-chart.tsx"
+        },
+        {
+          "path": "registry/components/line-chart/line-chart.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/line-chart/line-chart.module.css"
+        },
+        {
+          "path": "lib/media.ts",
+          "type": "registry:lib",
+          "target": "~/lib/media.ts"
+        },
+        {
           "path": "registry/components/avatar/avatar.tsx",
           "type": "registry:file",
           "target": "~/registry/components/avatar/avatar.tsx"
@@ -5212,14 +4891,24 @@
           "target": "~/registry/components/avatar/avatar.module.css"
         },
         {
-          "path": "registry/components/animated-counter/animated-counter.tsx",
+          "path": "registry/components/segmented-control/segmented-control.tsx",
           "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "target": "~/registry/components/segmented-control/segmented-control.tsx"
         },
         {
-          "path": "registry/components/animated-counter/animated-counter.module.css",
+          "path": "registry/components/segmented-control/segmented-control.module.css",
           "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+        },
+        {
+          "path": "registry/components/sparkline/sparkline.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/sparkline/sparkline.tsx"
+        },
+        {
+          "path": "registry/components/sparkline/sparkline.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/sparkline/sparkline.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/hero-section",
@@ -5399,41 +5088,6 @@
       }
     },
     {
-      "name": "error-pages",
-      "type": "registry:block",
-      "title": "Error pages",
-      "description": "Calm 404, 500, and maintenance pages with an animated Arc mark, search, retry, and notify.",
-      "categories": [
-        "blocks"
-      ],
-      "dependencies": [
-        "lucide-react",
-        "motion"
-      ],
-      "registryDependencies": [
-        "https://uiarc.dev/r/arc-foundation.json"
-      ],
-      "files": [
-        {
-          "path": "registry/blocks/error-pages/error-pages.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/error-pages/error-pages.tsx"
-        },
-        {
-          "path": "registry/blocks/error-pages/error-pages.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/error-pages/error-pages.module.css"
-        }
-      ],
-      "docs": "Docs and live preview: https://uiarc.dev/components/blocks/error-pages",
-      "meta": {
-        "tier": "free",
-        "kind": "block",
-        "docs": "https://uiarc.dev/components/blocks/error-pages",
-        "markdown": "https://uiarc.dev/components/blocks/error-pages/markdown"
-      }
-    },
-    {
       "name": "blog-grid",
       "type": "registry:block",
       "title": "Blog grid",
@@ -5517,7 +5171,7 @@
       "name": "stats-band",
       "type": "registry:block",
       "title": "Stats band",
-      "description": "Three or four headline numbers that count up in view, plain or divided by hairlines.",
+      "description": "Headline numbers that count up in view, each with a tiny visual that proves it and a context line on hover, plain or in a hairline grid.",
       "categories": [
         "blocks"
       ],
@@ -5543,6 +5197,11 @@
           "path": "registry/blocks/stats-band/stats-band.module.css",
           "type": "registry:file",
           "target": "~/registry/blocks/stats-band/stats-band.module.css"
+        },
+        {
+          "path": "registry/blocks/stats-band/stats-band-world.ts",
+          "type": "registry:file",
+          "target": "~/registry/blocks/stats-band/stats-band-world.ts"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
@@ -5634,28 +5293,26 @@
       "name": "newsletter-signup",
       "type": "registry:block",
       "title": "Newsletter signup",
-      "description": "An email signup that validates in place and morphs into a confirmation, inline or as a card.",
+      "description": "An email signup framed by a stack of past issues; subscribing drops the next issue, addressed to you, onto the front.",
       "categories": [
         "blocks"
       ],
       "dependencies": [
+        "@radix-ui/react-switch",
         "lucide-react",
         "motion"
       ],
       "registryDependencies": [
         "https://uiarc.dev/r/arc-foundation.json",
-        "https://uiarc.dev/r/segmented-control.json"
+        "https://uiarc.dev/r/animated-counter.json",
+        "https://uiarc.dev/r/segmented-control.json",
+        "https://uiarc.dev/r/switch.json"
       ],
       "files": [
         {
           "path": "registry/blocks/newsletter-signup/newsletter-signup.tsx",
           "type": "registry:file",
           "target": "~/registry/blocks/newsletter-signup/newsletter-signup.tsx"
-        },
-        {
-          "path": "registry/blocks/newsletter-signup/newsletter-signup.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/newsletter-signup/newsletter-signup.module.css"
         },
         {
           "path": "registry/blocks/newsletter-signup/newsletter-signup-data.ts",
@@ -5668,6 +5325,21 @@
           "target": "~/lib/media.ts"
         },
         {
+          "path": "registry/blocks/newsletter-signup/newsletter-signup.module.css",
+          "type": "registry:file",
+          "target": "~/registry/blocks/newsletter-signup/newsletter-signup.module.css"
+        },
+        {
+          "path": "registry/components/switch/switch.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/switch/switch.tsx"
+        },
+        {
+          "path": "registry/components/switch/switch.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/switch/switch.module.css"
+        },
+        {
           "path": "registry/components/segmented-control/segmented-control.tsx",
           "type": "registry:file",
           "target": "~/registry/components/segmented-control/segmented-control.tsx"
@@ -5676,6 +5348,16 @@
           "path": "registry/components/segmented-control/segmented-control.module.css",
           "type": "registry:file",
           "target": "~/registry/components/segmented-control/segmented-control.module.css"
+        },
+        {
+          "path": "registry/components/animated-counter/animated-counter.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+        },
+        {
+          "path": "registry/components/animated-counter/animated-counter.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/newsletter-signup",
