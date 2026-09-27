@@ -40,10 +40,10 @@ A few favorites, recorded live from [uiarc.dev](https://uiarc.dev). Items marked
 <td width="50%" valign="top">
 <a href="https://uiarc.dev/pro"><picture>
 <source media="(prefers-color-scheme: dark)" srcset="./.github/assets/showcase/cover-flow-dark.webp">
-<img alt="Cover flow: A depth rail of photos you can throw, with parallax inside each card." src="./.github/assets/showcase/cover-flow-light.webp" width="100%">
+<img alt="Cover flow: A depth rail of photos you can throw, with soft grounded shadows and a quiet reflection." src="./.github/assets/showcase/cover-flow-light.webp" width="100%">
 </picture></a>
 <br><a href="https://uiarc.dev/pro"><b>Cover flow</b></a> <sup><a href="https://uiarc.dev/pro">Pro</a></sup><br>
-<sub>A depth rail of photos you can throw, with parallax inside each card.</sub>
+<sub>A depth rail of photos you can throw, with soft grounded shadows and a quiet reflection.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://uiarc.dev/components/donut-chart"><picture>
@@ -668,7 +668,13 @@ public/r/<id>.json           prebuilt registry items, one per component or block
 
 ## Arc Pro
 
-A set of advanced components and blocks is available with [Arc Pro](https://uiarc.dev/pro). Everything in this repository stays free and MIT licensed.
+[Arc Pro](https://uiarc.dev/pro) adds 100 more components and blocks on top of this library: galleries like the Cover flow above, wallet and finance surfaces, richer charts, and complete product screens. They follow the same rules as everything here: plain source you own, both themes, keyboard support and a reduced motion path.
+
+- Source for every Pro component and block, installed with the same shadcn CLI through a personal token, or through the MCP server
+- Every new Pro release, plus fixes and updates to the pieces you already have
+- Yearly, or one payment for lifetime access. See [pricing](https://uiarc.dev/pricing)
+
+Everything in this repository stays free and MIT licensed.
 
 ## Contributing
 
