@@ -15,18 +15,18 @@
       "files": [
         {
           "path": "registry/foundation.css",
-          "type": "registry:file",
-          "target": "~/registry/foundation.css"
+          "type": "registry:component",
+          "target": "@components/arc/foundation.css"
         },
         {
           "path": "registry/motion-tokens.ts",
-          "type": "registry:file",
-          "target": "~/registry/motion-tokens.ts"
+          "type": "registry:component",
+          "target": "@components/arc/motion-tokens.ts"
         },
         {
           "path": "lib/motion-tokens.ts",
           "type": "registry:lib",
-          "target": "~/lib/motion-tokens.ts"
+          "target": "@components/arc/lib/motion-tokens.ts"
         }
       ]
     },
@@ -47,13 +47,13 @@
       "files": [
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/button",
@@ -86,13 +86,13 @@
       "files": [
         {
           "path": "registry/components/action-button/action-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/action-button/action-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/action-button/action-button.tsx"
         },
         {
           "path": "registry/components/action-button/action-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/action-button/action-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/action-button/action-button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/action-button",
@@ -126,13 +126,13 @@
       "files": [
         {
           "path": "registry/components/split-button/split-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/split-button/split-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/split-button/split-button.tsx"
         },
         {
           "path": "registry/components/split-button/split-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/split-button/split-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/split-button/split-button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/split-button",
@@ -166,13 +166,13 @@
       "files": [
         {
           "path": "registry/components/dropdown-menu/dropdown-menu.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/dropdown-menu/dropdown-menu.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/dropdown-menu/dropdown-menu.tsx"
         },
         {
           "path": "registry/components/dropdown-menu/dropdown-menu.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/dropdown-menu/dropdown-menu.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/dropdown-menu/dropdown-menu.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/dropdown-menu",
@@ -205,13 +205,13 @@
       "files": [
         {
           "path": "registry/components/context-menu/context-menu.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/context-menu/context-menu.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/context-menu/context-menu.tsx"
         },
         {
           "path": "registry/components/context-menu/context-menu.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/context-menu/context-menu.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/context-menu/context-menu.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/context-menu",
@@ -244,18 +244,18 @@
       "files": [
         {
           "path": "registry/components/copy-button/copy-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.tsx"
         },
         {
           "path": "registry/components/copy-button/copy-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.module.css"
         },
         {
           "path": "lib/use-copy-feedback.ts",
           "type": "registry:lib",
-          "target": "~/lib/use-copy-feedback.ts"
+          "target": "@components/arc/lib/use-copy-feedback.ts"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/copy-button",
@@ -289,13 +289,13 @@
       "files": [
         {
           "path": "registry/components/drawer/drawer.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/drawer/drawer.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/drawer/drawer.tsx"
         },
         {
           "path": "registry/components/drawer/drawer.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/drawer/drawer.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/drawer/drawer.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/drawer",
@@ -329,23 +329,23 @@
       "files": [
         {
           "path": "registry/components/theme-switch/theme-switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.tsx"
         },
         {
           "path": "registry/components/theme-switch/theme-switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/theme-switch",
@@ -380,23 +380,23 @@
       "files": [
         {
           "path": "registry/components/theme-switch/theme-switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.tsx"
         },
         {
           "path": "registry/components/theme-switch/theme-switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/theme-switch-eclipse",
@@ -431,23 +431,23 @@
       "files": [
         {
           "path": "registry/components/theme-switch/theme-switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.tsx"
         },
         {
           "path": "registry/components/theme-switch/theme-switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/theme-switch-split",
@@ -482,23 +482,23 @@
       "files": [
         {
           "path": "registry/components/theme-switch/theme-switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.tsx"
         },
         {
           "path": "registry/components/theme-switch/theme-switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/theme-switch/theme-switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/theme-switch/theme-switch.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/theme-switch-rise",
@@ -531,13 +531,13 @@
       "files": [
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/avatar",
@@ -570,23 +570,23 @@
       "files": [
         {
           "path": "registry/components/avatar-group/avatar-group.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar-group/avatar-group.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar-group/avatar-group.tsx"
         },
         {
           "path": "registry/components/avatar-group/avatar-group.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar-group/avatar-group.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar-group/avatar-group.module.css"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/avatar-group",
@@ -618,13 +618,13 @@
       "files": [
         {
           "path": "registry/components/input/input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.tsx"
         },
         {
           "path": "registry/components/input/input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/input",
@@ -656,13 +656,13 @@
       "files": [
         {
           "path": "registry/components/textarea/textarea.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/textarea/textarea.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/textarea/textarea.tsx"
         },
         {
           "path": "registry/components/textarea/textarea.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/textarea/textarea.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/textarea/textarea.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/textarea",
@@ -696,13 +696,13 @@
       "files": [
         {
           "path": "registry/components/select/select.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/select/select.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/select/select.tsx"
         },
         {
           "path": "registry/components/select/select.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/select/select.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/select/select.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/select",
@@ -735,13 +735,13 @@
       "files": [
         {
           "path": "registry/components/combobox/combobox.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/combobox/combobox.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/combobox/combobox.tsx"
         },
         {
           "path": "registry/components/combobox/combobox.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/combobox/combobox.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/combobox/combobox.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/combobox",
@@ -774,13 +774,13 @@
       "files": [
         {
           "path": "registry/components/checkbox/checkbox.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/checkbox/checkbox.tsx"
         },
         {
           "path": "registry/components/checkbox/checkbox.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/checkbox/checkbox.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/checkbox",
@@ -813,13 +813,13 @@
       "files": [
         {
           "path": "registry/components/switch/switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.tsx"
         },
         {
           "path": "registry/components/switch/switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/switch",
@@ -852,13 +852,13 @@
       "files": [
         {
           "path": "registry/components/multi-select/multi-select.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/multi-select/multi-select.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/multi-select/multi-select.tsx"
         },
         {
           "path": "registry/components/multi-select/multi-select.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/multi-select/multi-select.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/multi-select/multi-select.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/multi-select",
@@ -891,13 +891,13 @@
       "files": [
         {
           "path": "registry/components/number-field/number-field.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/number-field/number-field.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/number-field/number-field.tsx"
         },
         {
           "path": "registry/components/number-field/number-field.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/number-field/number-field.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/number-field/number-field.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/number-field",
@@ -929,13 +929,13 @@
       "files": [
         {
           "path": "registry/components/password-field/password-field.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/password-field/password-field.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/password-field/password-field.tsx"
         },
         {
           "path": "registry/components/password-field/password-field.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/password-field/password-field.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/password-field/password-field.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/password-field",
@@ -968,13 +968,13 @@
       "files": [
         {
           "path": "registry/components/search-field/search-field.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/search-field/search-field.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/search-field/search-field.tsx"
         },
         {
           "path": "registry/components/search-field/search-field.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/search-field/search-field.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/search-field/search-field.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/search-field",
@@ -1007,13 +1007,13 @@
       "files": [
         {
           "path": "registry/components/tag-input/tag-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/tag-input/tag-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/tag-input/tag-input.tsx"
         },
         {
           "path": "registry/components/tag-input/tag-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/tag-input/tag-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/tag-input/tag-input.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/tag-input",
@@ -1046,13 +1046,13 @@
       "files": [
         {
           "path": "registry/components/file-dropzone/file-dropzone.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/file-dropzone/file-dropzone.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/file-dropzone/file-dropzone.tsx"
         },
         {
           "path": "registry/components/file-dropzone/file-dropzone.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/file-dropzone/file-dropzone.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/file-dropzone/file-dropzone.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/file-dropzone",
@@ -1084,13 +1084,13 @@
       "files": [
         {
           "path": "registry/components/radio-group/radio-group.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/radio-group/radio-group.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/radio-group/radio-group.tsx"
         },
         {
           "path": "registry/components/radio-group/radio-group.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/radio-group/radio-group.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/radio-group/radio-group.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/radio-group",
@@ -1122,13 +1122,13 @@
       "files": [
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/segmented-control",
@@ -1161,13 +1161,13 @@
       "files": [
         {
           "path": "registry/components/calendar/calendar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/calendar/calendar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/calendar/calendar.tsx"
         },
         {
           "path": "registry/components/calendar/calendar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/calendar/calendar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/calendar/calendar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/calendar",
@@ -1201,23 +1201,23 @@
       "files": [
         {
           "path": "registry/components/date-picker/date-picker.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/date-picker/date-picker.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/date-picker/date-picker.tsx"
         },
         {
           "path": "registry/components/date-picker/date-picker.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/date-picker/date-picker.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/date-picker/date-picker.module.css"
         },
         {
           "path": "registry/components/calendar/calendar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/calendar/calendar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/calendar/calendar.tsx"
         },
         {
           "path": "registry/components/calendar/calendar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/calendar/calendar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/calendar/calendar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/date-picker",
@@ -1250,13 +1250,13 @@
       "files": [
         {
           "path": "registry/components/time-picker/time-picker.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/time-picker/time-picker.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/time-picker/time-picker.tsx"
         },
         {
           "path": "registry/components/time-picker/time-picker.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/time-picker/time-picker.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/time-picker/time-picker.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/time-picker",
@@ -1290,13 +1290,13 @@
       "files": [
         {
           "path": "registry/components/accordion/accordion.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/accordion/accordion.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/accordion/accordion.tsx"
         },
         {
           "path": "registry/components/accordion/accordion.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/accordion/accordion.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/accordion/accordion.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/accordion",
@@ -1330,13 +1330,13 @@
       "files": [
         {
           "path": "registry/components/dialog/dialog.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/dialog/dialog.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/dialog/dialog.tsx"
         },
         {
           "path": "registry/components/dialog/dialog.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/dialog/dialog.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/dialog/dialog.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/dialog",
@@ -1368,13 +1368,13 @@
       "files": [
         {
           "path": "registry/components/popover/popover.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/popover/popover.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/popover/popover.tsx"
         },
         {
           "path": "registry/components/popover/popover.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/popover/popover.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/popover/popover.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/popover",
@@ -1407,13 +1407,13 @@
       "files": [
         {
           "path": "registry/components/tooltip/tooltip.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/tooltip/tooltip.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/tooltip/tooltip.tsx"
         },
         {
           "path": "registry/components/tooltip/tooltip.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/tooltip/tooltip.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/tooltip/tooltip.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/tooltip",
@@ -1447,13 +1447,13 @@
       "files": [
         {
           "path": "registry/components/tabs/tabs.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/tabs/tabs.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/tabs/tabs.tsx"
         },
         {
           "path": "registry/components/tabs/tabs.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/tabs/tabs.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/tabs/tabs.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/tabs",
@@ -1486,13 +1486,13 @@
       "files": [
         {
           "path": "registry/components/expandable-card/expandable-card.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/expandable-card/expandable-card.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/expandable-card/expandable-card.tsx"
         },
         {
           "path": "registry/components/expandable-card/expandable-card.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/expandable-card/expandable-card.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/expandable-card/expandable-card.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/expandable-card",
@@ -1525,13 +1525,13 @@
       "files": [
         {
           "path": "registry/components/breadcrumb/breadcrumb.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/breadcrumb/breadcrumb.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/breadcrumb/breadcrumb.tsx"
         },
         {
           "path": "registry/components/breadcrumb/breadcrumb.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/breadcrumb/breadcrumb.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/breadcrumb/breadcrumb.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/breadcrumb",
@@ -1564,13 +1564,13 @@
       "files": [
         {
           "path": "registry/components/alert/alert.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/alert/alert.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/alert/alert.tsx"
         },
         {
           "path": "registry/components/alert/alert.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/alert/alert.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/alert/alert.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/alert",
@@ -1603,13 +1603,13 @@
       "files": [
         {
           "path": "registry/components/toast/toast.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/toast/toast.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/toast/toast.tsx"
         },
         {
           "path": "registry/components/toast/toast.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/toast/toast.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/toast/toast.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/toast",
@@ -1642,13 +1642,13 @@
       "files": [
         {
           "path": "registry/components/progress/progress.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/progress/progress.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/progress/progress.tsx"
         },
         {
           "path": "registry/components/progress/progress.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/progress/progress.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/progress/progress.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/progress",
@@ -1680,13 +1680,13 @@
       "files": [
         {
           "path": "registry/components/skeleton/skeleton.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/skeleton/skeleton.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/skeleton/skeleton.tsx"
         },
         {
           "path": "registry/components/skeleton/skeleton.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/skeleton/skeleton.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/skeleton/skeleton.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/skeleton",
@@ -1718,13 +1718,13 @@
       "files": [
         {
           "path": "registry/components/badge/badge.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/badge/badge.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/badge/badge.tsx"
         },
         {
           "path": "registry/components/badge/badge.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/badge/badge.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/badge/badge.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/badge",
@@ -1758,13 +1758,13 @@
       "files": [
         {
           "path": "registry/components/card/card.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/card/card.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/card/card.tsx"
         },
         {
           "path": "registry/components/card/card.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/card/card.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/card/card.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/card",
@@ -1797,23 +1797,23 @@
       "files": [
         {
           "path": "registry/components/metric-card/metric-card.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/metric-card/metric-card.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/metric-card/metric-card.tsx"
         },
         {
           "path": "registry/components/metric-card/metric-card.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/metric-card/metric-card.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/metric-card/metric-card.module.css"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.tsx"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/metric-card",
@@ -1846,13 +1846,13 @@
       "files": [
         {
           "path": "registry/components/empty-state/empty-state.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/empty-state/empty-state.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/empty-state/empty-state.tsx"
         },
         {
           "path": "registry/components/empty-state/empty-state.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/empty-state/empty-state.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/empty-state/empty-state.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/empty-state",
@@ -1885,13 +1885,13 @@
       "files": [
         {
           "path": "registry/components/tree-view/tree-view.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/tree-view/tree-view.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/tree-view/tree-view.tsx"
         },
         {
           "path": "registry/components/tree-view/tree-view.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/tree-view/tree-view.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/tree-view/tree-view.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/tree-view",
@@ -1924,13 +1924,13 @@
       "files": [
         {
           "path": "registry/components/pagination/pagination.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/pagination/pagination.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/pagination/pagination.tsx"
         },
         {
           "path": "registry/components/pagination/pagination.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/pagination/pagination.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/pagination/pagination.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/pagination",
@@ -1963,13 +1963,13 @@
       "files": [
         {
           "path": "registry/components/filter-toolbar/filter-toolbar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/filter-toolbar/filter-toolbar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/filter-toolbar/filter-toolbar.tsx"
         },
         {
           "path": "registry/components/filter-toolbar/filter-toolbar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/filter-toolbar/filter-toolbar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/filter-toolbar/filter-toolbar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/filter-toolbar",
@@ -2002,13 +2002,13 @@
       "files": [
         {
           "path": "registry/components/sortable-data-table/sortable-data-table.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/sortable-data-table/sortable-data-table.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/sortable-data-table/sortable-data-table.tsx"
         },
         {
           "path": "registry/components/sortable-data-table/sortable-data-table.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/sortable-data-table/sortable-data-table.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/sortable-data-table/sortable-data-table.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/sortable-data-table",
@@ -2040,13 +2040,13 @@
       "files": [
         {
           "path": "registry/components/sparkline/sparkline.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/sparkline/sparkline.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/sparkline/sparkline.tsx"
         },
         {
           "path": "registry/components/sparkline/sparkline.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/sparkline/sparkline.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/sparkline/sparkline.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/sparkline",
@@ -2078,13 +2078,13 @@
       "files": [
         {
           "path": "registry/components/gauge/gauge.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/gauge/gauge.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/gauge/gauge.tsx"
         },
         {
           "path": "registry/components/gauge/gauge.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/gauge/gauge.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/gauge/gauge.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/gauge",
@@ -2116,13 +2116,13 @@
       "files": [
         {
           "path": "registry/components/animated-counter/animated-counter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.tsx"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/animated-counter",
@@ -2156,28 +2156,28 @@
       "files": [
         {
           "path": "registry/components/code-block/code-block.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/code-block/code-block.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/code-block/code-block.tsx"
         },
         {
           "path": "registry/components/code-block/code-block.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/code-block/code-block.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/code-block/code-block.module.css"
         },
         {
           "path": "registry/components/copy-button/copy-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.tsx"
         },
         {
           "path": "registry/components/copy-button/copy-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.module.css"
         },
         {
           "path": "lib/use-copy-feedback.ts",
           "type": "registry:lib",
-          "target": "~/lib/use-copy-feedback.ts"
+          "target": "@components/arc/lib/use-copy-feedback.ts"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/code-block",
@@ -2207,13 +2207,13 @@
       "files": [
         {
           "path": "registry/components/text-reveal/text-reveal.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-reveal/text-reveal.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/text-reveal/text-reveal.tsx"
         },
         {
           "path": "registry/components/text-reveal/text-reveal.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-reveal/text-reveal.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/text-reveal/text-reveal.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/text-reveal",
@@ -2246,13 +2246,13 @@
       "files": [
         {
           "path": "registry/components/in-view-title/in-view-title.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/in-view-title/in-view-title.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/in-view-title/in-view-title.tsx"
         },
         {
           "path": "registry/components/in-view-title/in-view-title.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/in-view-title/in-view-title.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/in-view-title/in-view-title.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/in-view-title",
@@ -2285,13 +2285,13 @@
       "files": [
         {
           "path": "registry/components/text-morph/text-morph.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-morph/text-morph.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/text-morph/text-morph.tsx"
         },
         {
           "path": "registry/components/text-morph/text-morph.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-morph/text-morph.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/text-morph/text-morph.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/text-morph",
@@ -2324,13 +2324,13 @@
       "files": [
         {
           "path": "registry/components/text-shimmer/text-shimmer.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-shimmer/text-shimmer.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/text-shimmer/text-shimmer.tsx"
         },
         {
           "path": "registry/components/text-shimmer/text-shimmer.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-shimmer/text-shimmer.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/text-shimmer/text-shimmer.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/text-shimmer",
@@ -2364,13 +2364,13 @@
       "files": [
         {
           "path": "registry/components/hold-to-confirm/hold-to-confirm.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/hold-to-confirm/hold-to-confirm.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/hold-to-confirm/hold-to-confirm.tsx"
         },
         {
           "path": "registry/components/hold-to-confirm/hold-to-confirm.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/hold-to-confirm/hold-to-confirm.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/hold-to-confirm/hold-to-confirm.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/hold-to-confirm",
@@ -2405,13 +2405,13 @@
       "files": [
         {
           "path": "registry/components/swipe-actions/swipe-actions.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/swipe-actions/swipe-actions.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/swipe-actions/swipe-actions.tsx"
         },
         {
           "path": "registry/components/swipe-actions/swipe-actions.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/swipe-actions/swipe-actions.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/swipe-actions/swipe-actions.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/swipe-actions",
@@ -2444,13 +2444,13 @@
       "files": [
         {
           "path": "registry/components/slider/slider.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/slider/slider.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/slider/slider.tsx"
         },
         {
           "path": "registry/components/slider/slider.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/slider/slider.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/slider/slider.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/slider",
@@ -2484,13 +2484,13 @@
       "files": [
         {
           "path": "registry/components/inline-edit/inline-edit.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/inline-edit/inline-edit.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/inline-edit/inline-edit.tsx"
         },
         {
           "path": "registry/components/inline-edit/inline-edit.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/inline-edit/inline-edit.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/inline-edit/inline-edit.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/inline-edit",
@@ -2524,13 +2524,13 @@
       "files": [
         {
           "path": "registry/components/expanding-search/expanding-search.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/expanding-search/expanding-search.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/expanding-search/expanding-search.tsx"
         },
         {
           "path": "registry/components/expanding-search/expanding-search.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/expanding-search/expanding-search.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/expanding-search/expanding-search.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/expanding-search",
@@ -2563,13 +2563,13 @@
       "files": [
         {
           "path": "registry/components/chip-group/chip-group.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/chip-group/chip-group.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/chip-group/chip-group.tsx"
         },
         {
           "path": "registry/components/chip-group/chip-group.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/chip-group/chip-group.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/chip-group/chip-group.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/chip-group",
@@ -2602,13 +2602,13 @@
       "files": [
         {
           "path": "registry/components/password-strength/password-strength.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/password-strength/password-strength.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/password-strength/password-strength.tsx"
         },
         {
           "path": "registry/components/password-strength/password-strength.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/password-strength/password-strength.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/password-strength/password-strength.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/password-strength",
@@ -2643,13 +2643,13 @@
       "files": [
         {
           "path": "registry/components/bottom-sheet/bottom-sheet.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/bottom-sheet/bottom-sheet.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/bottom-sheet/bottom-sheet.tsx"
         },
         {
           "path": "registry/components/bottom-sheet/bottom-sheet.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/bottom-sheet/bottom-sheet.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/bottom-sheet/bottom-sheet.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/bottom-sheet",
@@ -2683,13 +2683,13 @@
       "files": [
         {
           "path": "registry/components/hover-card/hover-card.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/hover-card/hover-card.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/hover-card/hover-card.tsx"
         },
         {
           "path": "registry/components/hover-card/hover-card.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/hover-card/hover-card.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/hover-card/hover-card.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/hover-card",
@@ -2723,13 +2723,13 @@
       "files": [
         {
           "path": "registry/components/resizable-panels/resizable-panels.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/resizable-panels/resizable-panels.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/resizable-panels/resizable-panels.tsx"
         },
         {
           "path": "registry/components/resizable-panels/resizable-panels.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/resizable-panels/resizable-panels.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/resizable-panels/resizable-panels.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/resizable-panels",
@@ -2763,13 +2763,13 @@
       "files": [
         {
           "path": "registry/components/toast-stack/toast-stack.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/toast-stack/toast-stack.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/toast-stack/toast-stack.tsx"
         },
         {
           "path": "registry/components/toast-stack/toast-stack.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/toast-stack/toast-stack.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/toast-stack/toast-stack.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/toast-stack",
@@ -2803,13 +2803,13 @@
       "files": [
         {
           "path": "registry/components/usage-meter/usage-meter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/usage-meter/usage-meter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/usage-meter/usage-meter.tsx"
         },
         {
           "path": "registry/components/usage-meter/usage-meter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/usage-meter/usage-meter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/usage-meter/usage-meter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/usage-meter",
@@ -2843,13 +2843,13 @@
       "files": [
         {
           "path": "registry/components/image-compare/image-compare.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/image-compare/image-compare.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/image-compare/image-compare.tsx"
         },
         {
           "path": "registry/components/image-compare/image-compare.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/image-compare/image-compare.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/image-compare/image-compare.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/image-compare",
@@ -2883,13 +2883,13 @@
       "files": [
         {
           "path": "registry/components/carousel/carousel.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/carousel/carousel.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/carousel/carousel.tsx"
         },
         {
           "path": "registry/components/carousel/carousel.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/carousel/carousel.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/carousel/carousel.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/carousel",
@@ -2922,13 +2922,13 @@
       "files": [
         {
           "path": "registry/components/bar-chart/bar-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/bar-chart/bar-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/bar-chart/bar-chart.tsx"
         },
         {
           "path": "registry/components/bar-chart/bar-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/bar-chart/bar-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/bar-chart/bar-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/bar-chart",
@@ -2961,13 +2961,13 @@
       "files": [
         {
           "path": "registry/components/activity-heatmap/activity-heatmap.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/activity-heatmap/activity-heatmap.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/activity-heatmap/activity-heatmap.tsx"
         },
         {
           "path": "registry/components/activity-heatmap/activity-heatmap.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/activity-heatmap/activity-heatmap.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/activity-heatmap/activity-heatmap.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/activity-heatmap",
@@ -3001,13 +3001,13 @@
       "files": [
         {
           "path": "registry/components/timeline/timeline.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/timeline/timeline.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/timeline/timeline.tsx"
         },
         {
           "path": "registry/components/timeline/timeline.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/timeline/timeline.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/timeline/timeline.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/timeline",
@@ -3041,13 +3041,13 @@
       "files": [
         {
           "path": "registry/components/user-menu/user-menu.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/user-menu/user-menu.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/user-menu/user-menu.tsx"
         },
         {
           "path": "registry/components/user-menu/user-menu.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/user-menu/user-menu.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/user-menu/user-menu.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/user-menu",
@@ -3079,13 +3079,13 @@
       "files": [
         {
           "path": "registry/components/stepper/stepper.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/stepper/stepper.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/stepper/stepper.tsx"
         },
         {
           "path": "registry/components/stepper/stepper.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/stepper/stepper.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/stepper/stepper.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/stepper",
@@ -3118,13 +3118,13 @@
       "files": [
         {
           "path": "registry/components/signature-pad/signature-pad.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/signature-pad/signature-pad.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/signature-pad/signature-pad.tsx"
         },
         {
           "path": "registry/components/signature-pad/signature-pad.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/signature-pad/signature-pad.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/signature-pad/signature-pad.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/signature-pad",
@@ -3157,13 +3157,13 @@
       "files": [
         {
           "path": "registry/components/date-range-picker/date-range-picker.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/date-range-picker/date-range-picker.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/date-range-picker/date-range-picker.tsx"
         },
         {
           "path": "registry/components/date-range-picker/date-range-picker.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/date-range-picker/date-range-picker.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/date-range-picker/date-range-picker.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/date-range-picker",
@@ -3197,23 +3197,23 @@
       "files": [
         {
           "path": "registry/components/color-picker/color-picker.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/color-picker/color-picker.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/color-picker/color-picker.tsx"
         },
         {
           "path": "registry/components/color-picker/color-picker.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/color-picker/color-picker.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/color-picker/color-picker.module.css"
         },
         {
           "path": "registry/components/text-morph/text-morph.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/text-morph/text-morph.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/text-morph/text-morph.tsx"
         },
         {
           "path": "registry/components/text-morph/text-morph.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/text-morph/text-morph.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/text-morph/text-morph.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/color-picker",
@@ -3245,13 +3245,13 @@
       "files": [
         {
           "path": "registry/components/line-chart/line-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/line-chart/line-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/line-chart/line-chart.tsx"
         },
         {
           "path": "registry/components/line-chart/line-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/line-chart/line-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/line-chart/line-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/line-chart",
@@ -3283,13 +3283,13 @@
       "files": [
         {
           "path": "registry/components/donut-chart/donut-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/donut-chart/donut-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/donut-chart/donut-chart.tsx"
         },
         {
           "path": "registry/components/donut-chart/donut-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/donut-chart/donut-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/donut-chart/donut-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/donut-chart",
@@ -3321,13 +3321,13 @@
       "files": [
         {
           "path": "registry/components/streamgraph/streamgraph.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/streamgraph/streamgraph.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/streamgraph/streamgraph.tsx"
         },
         {
           "path": "registry/components/streamgraph/streamgraph.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/streamgraph/streamgraph.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/streamgraph/streamgraph.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/streamgraph",
@@ -3360,13 +3360,13 @@
       "files": [
         {
           "path": "registry/components/brush-chart/brush-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/brush-chart/brush-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/brush-chart/brush-chart.tsx"
         },
         {
           "path": "registry/components/brush-chart/brush-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/brush-chart/brush-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/brush-chart/brush-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/brush-chart",
@@ -3399,13 +3399,13 @@
       "files": [
         {
           "path": "registry/components/ridgeline/ridgeline.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/ridgeline/ridgeline.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/ridgeline/ridgeline.tsx"
         },
         {
           "path": "registry/components/ridgeline/ridgeline.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/ridgeline/ridgeline.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/ridgeline/ridgeline.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/ridgeline",
@@ -3438,13 +3438,13 @@
       "files": [
         {
           "path": "registry/components/treemap/treemap.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/treemap/treemap.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/treemap/treemap.tsx"
         },
         {
           "path": "registry/components/treemap/treemap.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/treemap/treemap.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/treemap/treemap.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/treemap",
@@ -3477,13 +3477,13 @@
       "files": [
         {
           "path": "registry/components/waffle-chart/waffle-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/waffle-chart/waffle-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/waffle-chart/waffle-chart.tsx"
         },
         {
           "path": "registry/components/waffle-chart/waffle-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/waffle-chart/waffle-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/waffle-chart/waffle-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/waffle-chart",
@@ -3516,13 +3516,13 @@
       "files": [
         {
           "path": "registry/components/slope-chart/slope-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/slope-chart/slope-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/slope-chart/slope-chart.tsx"
         },
         {
           "path": "registry/components/slope-chart/slope-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/slope-chart/slope-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/slope-chart/slope-chart.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/slope-chart",
@@ -3556,13 +3556,13 @@
       "files": [
         {
           "path": "registry/components/announcement-bar/announcement-bar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/announcement-bar/announcement-bar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/announcement-bar/announcement-bar.tsx"
         },
         {
           "path": "registry/components/announcement-bar/announcement-bar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/announcement-bar/announcement-bar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/announcement-bar/announcement-bar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/announcement-bar",
@@ -3595,13 +3595,13 @@
       "files": [
         {
           "path": "registry/components/json-viewer/json-viewer.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/json-viewer/json-viewer.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/json-viewer/json-viewer.tsx"
         },
         {
           "path": "registry/components/json-viewer/json-viewer.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/json-viewer/json-viewer.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/json-viewer/json-viewer.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/json-viewer",
@@ -3634,13 +3634,13 @@
       "files": [
         {
           "path": "registry/components/phone-input/phone-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/phone-input/phone-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/phone-input/phone-input.tsx"
         },
         {
           "path": "registry/components/phone-input/phone-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/phone-input/phone-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/phone-input/phone-input.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/phone-input",
@@ -3673,13 +3673,13 @@
       "files": [
         {
           "path": "registry/components/shortcut-recorder/shortcut-recorder.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/shortcut-recorder/shortcut-recorder.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/shortcut-recorder/shortcut-recorder.tsx"
         },
         {
           "path": "registry/components/shortcut-recorder/shortcut-recorder.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/shortcut-recorder/shortcut-recorder.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/shortcut-recorder/shortcut-recorder.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/shortcut-recorder",
@@ -3712,13 +3712,13 @@
       "files": [
         {
           "path": "registry/components/confirm-morph/confirm-morph.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/confirm-morph/confirm-morph.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/confirm-morph/confirm-morph.tsx"
         },
         {
           "path": "registry/components/confirm-morph/confirm-morph.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/confirm-morph/confirm-morph.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/confirm-morph/confirm-morph.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/confirm-morph",
@@ -3751,13 +3751,13 @@
       "files": [
         {
           "path": "registry/components/mention-input/mention-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/mention-input/mention-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/mention-input/mention-input.tsx"
         },
         {
           "path": "registry/components/mention-input/mention-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/mention-input/mention-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/mention-input/mention-input.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/mention-input",
@@ -3790,13 +3790,13 @@
       "files": [
         {
           "path": "registry/components/chat-thread/chat-thread.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/chat-thread/chat-thread.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/chat-thread/chat-thread.tsx"
         },
         {
           "path": "registry/components/chat-thread/chat-thread.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/chat-thread/chat-thread.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/chat-thread/chat-thread.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/chat-thread",
@@ -3829,13 +3829,13 @@
       "files": [
         {
           "path": "registry/components/rich-text-editor/rich-text-editor.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/rich-text-editor/rich-text-editor.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/rich-text-editor/rich-text-editor.tsx"
         },
         {
           "path": "registry/components/rich-text-editor/rich-text-editor.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/rich-text-editor/rich-text-editor.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/rich-text-editor/rich-text-editor.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/rich-text-editor",
@@ -3868,23 +3868,23 @@
       "files": [
         {
           "path": "registry/components/billing-toggle/billing-toggle.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/billing-toggle/billing-toggle.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/billing-toggle/billing-toggle.tsx"
         },
         {
           "path": "registry/components/billing-toggle/billing-toggle.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/billing-toggle/billing-toggle.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/billing-toggle/billing-toggle.module.css"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.tsx"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/billing-toggle",
@@ -3914,13 +3914,13 @@
       "files": [
         {
           "path": "registry/components/scroll-area/scroll-area.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/scroll-area/scroll-area.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/scroll-area/scroll-area.tsx"
         },
         {
           "path": "registry/components/scroll-area/scroll-area.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/scroll-area/scroll-area.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/scroll-area/scroll-area.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/scroll-area",
@@ -3952,13 +3952,13 @@
       "files": [
         {
           "path": "registry/components/radio-cards/radio-cards.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/radio-cards/radio-cards.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/radio-cards/radio-cards.tsx"
         },
         {
           "path": "registry/components/radio-cards/radio-cards.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/radio-cards/radio-cards.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/radio-cards/radio-cards.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/radio-cards",
@@ -3991,13 +3991,13 @@
       "files": [
         {
           "path": "registry/components/comment-thread/comment-thread.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/comment-thread/comment-thread.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/comment-thread/comment-thread.tsx"
         },
         {
           "path": "registry/components/comment-thread/comment-thread.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/comment-thread/comment-thread.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/comment-thread/comment-thread.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/comment-thread",
@@ -4029,13 +4029,13 @@
       "files": [
         {
           "path": "registry/components/slot-text/slot-text.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/slot-text/slot-text.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/slot-text/slot-text.tsx"
         },
         {
           "path": "registry/components/slot-text/slot-text.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/slot-text/slot-text.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/slot-text/slot-text.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/slot-text",
@@ -4074,53 +4074,53 @@
       "files": [
         {
           "path": "registry/blocks/signup-form/signup-form.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/signup-form/signup-form.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/signup-form/signup-form.tsx"
         },
         {
           "path": "registry/blocks/signup-form/signup-form.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/signup-form/signup-form.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/signup-form/signup-form.module.css"
         },
         {
           "path": "registry/components/password-field/password-field.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/password-field/password-field.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/password-field/password-field.tsx"
         },
         {
           "path": "registry/components/password-field/password-field.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/password-field/password-field.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/password-field/password-field.module.css"
         },
         {
           "path": "registry/components/input/input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.tsx"
         },
         {
           "path": "registry/components/input/input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.module.css"
         },
         {
           "path": "registry/components/checkbox/checkbox.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/checkbox/checkbox.tsx"
         },
         {
           "path": "registry/components/checkbox/checkbox.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/checkbox/checkbox.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/checkbox/checkbox.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/signup-form",
@@ -4150,23 +4150,23 @@
       "files": [
         {
           "path": "registry/blocks/logo-marquee/logo-marquee.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/logo-marquee/logo-marquee.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/logo-marquee/logo-marquee.tsx"
         },
         {
           "path": "registry/blocks/logo-marquee/logo-marquee.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/logo-marquee/logo-marquee.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/logo-marquee/logo-marquee.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/logo-marquee",
@@ -4199,43 +4199,43 @@
       "files": [
         {
           "path": "registry/blocks/plan-comparison/plan-comparison.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/plan-comparison/plan-comparison.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/plan-comparison/plan-comparison.tsx"
         },
         {
           "path": "registry/blocks/plan-comparison/plan-comparison.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/plan-comparison/plan-comparison.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/plan-comparison/plan-comparison.module.css"
         },
         {
           "path": "registry/components/switch/switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.tsx"
         },
         {
           "path": "registry/components/switch/switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/plan-comparison",
@@ -4264,13 +4264,13 @@
       "files": [
         {
           "path": "registry/components/command-palette/command-palette.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/command-palette/command-palette.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/command-palette/command-palette.tsx"
         },
         {
           "path": "registry/components/command-palette/command-palette.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/command-palette/command-palette.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/command-palette/command-palette.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/command-palette",
@@ -4301,23 +4301,23 @@
       "files": [
         {
           "path": "registry/components/notification-center/notification-center.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/notification-center/notification-center.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/notification-center/notification-center.tsx"
         },
         {
           "path": "registry/components/notification-center/notification-center.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/notification-center/notification-center.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/notification-center/notification-center.module.css"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/notification-center",
@@ -4346,13 +4346,13 @@
       "files": [
         {
           "path": "registry/components/file-upload/file-upload.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/file-upload/file-upload.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/file-upload/file-upload.tsx"
         },
         {
           "path": "registry/components/file-upload/file-upload.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/file-upload/file-upload.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/file-upload/file-upload.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/file-upload",
@@ -4380,13 +4380,13 @@
       "files": [
         {
           "path": "registry/components/otp-input/otp-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.tsx"
         },
         {
           "path": "registry/components/otp-input/otp-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/otp-input",
@@ -4416,33 +4416,33 @@
       "files": [
         {
           "path": "registry/blocks/changelog-feed/changelog-feed.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/changelog-feed/changelog-feed.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/changelog-feed/changelog-feed.tsx"
         },
         {
           "path": "registry/blocks/changelog-feed/changelog-feed.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/changelog-feed/changelog-feed.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/changelog-feed/changelog-feed.module.css"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/components/copy-button/copy-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.tsx"
         },
         {
           "path": "registry/components/copy-button/copy-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.module.css"
         },
         {
           "path": "lib/use-copy-feedback.ts",
           "type": "registry:lib",
-          "target": "~/lib/use-copy-feedback.ts"
+          "target": "@components/arc/lib/use-copy-feedback.ts"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/changelog-feed",
@@ -4475,58 +4475,58 @@
       "files": [
         {
           "path": "registry/blocks/sign-in/sign-in.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/sign-in/sign-in.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/sign-in/sign-in.tsx"
         },
         {
           "path": "registry/blocks/sign-in/sign-in.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/sign-in/sign-in.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/sign-in/sign-in.module.css"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/components/otp-input/otp-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.tsx"
         },
         {
           "path": "registry/components/otp-input/otp-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.module.css"
         },
         {
           "path": "registry/components/input/input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.tsx"
         },
         {
           "path": "registry/components/input/input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/sign-in",
@@ -4563,73 +4563,73 @@
       "files": [
         {
           "path": "registry/blocks/page-header/page-header.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/page-header/page-header.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/page-header/page-header.tsx"
         },
         {
           "path": "registry/blocks/page-header/page-header.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/page-header/page-header.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/page-header/page-header.module.css"
         },
         {
           "path": "registry/components/progress/progress.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/progress/progress.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/progress/progress.tsx"
         },
         {
           "path": "registry/components/progress/progress.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/progress/progress.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/progress/progress.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         },
         {
           "path": "registry/components/badge/badge.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/badge/badge.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/badge/badge.tsx"
         },
         {
           "path": "registry/components/badge/badge.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/badge/badge.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/badge/badge.module.css"
         },
         {
           "path": "registry/components/avatar-group/avatar-group.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar-group/avatar-group.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar-group/avatar-group.tsx"
         },
         {
           "path": "registry/components/avatar-group/avatar-group.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar-group/avatar-group.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar-group/avatar-group.module.css"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.tsx"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/page-header",
@@ -4658,28 +4658,28 @@
       "files": [
         {
           "path": "registry/blocks/empty-states/empty-states.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/empty-states/empty-states.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/empty-states/empty-states.tsx"
         },
         {
           "path": "registry/blocks/empty-states/empty-states.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/empty-states/empty-states.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/empty-states/empty-states.module.css"
         },
         {
           "path": "registry/blocks/empty-states/empty-states-art.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/empty-states/empty-states-art.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/empty-states/empty-states-art.ts"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/empty-states",
@@ -4711,43 +4711,43 @@
       "files": [
         {
           "path": "registry/blocks/login-centered/login-centered.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/login-centered/login-centered.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/login-centered/login-centered.tsx"
         },
         {
           "path": "registry/blocks/login-centered/login-centered.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/login-centered/login-centered.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/login-centered/login-centered.module.css"
         },
         {
           "path": "registry/components/otp-input/otp-input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.tsx"
         },
         {
           "path": "registry/components/otp-input/otp-input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/otp-input/otp-input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/otp-input/otp-input.module.css"
         },
         {
           "path": "registry/components/input/input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.tsx"
         },
         {
           "path": "registry/components/input/input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/login-centered",
@@ -4777,28 +4777,28 @@
       "files": [
         {
           "path": "registry/blocks/site-header/site-header.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/site-header/site-header.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/site-header/site-header.tsx"
         },
         {
           "path": "registry/blocks/site-header/site-header.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/site-header/site-header.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/site-header/site-header.module.css"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/site-header",
@@ -4829,33 +4829,33 @@
       "files": [
         {
           "path": "registry/blocks/site-footer/site-footer.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/site-footer/site-footer.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/site-footer/site-footer.tsx"
         },
         {
           "path": "registry/blocks/site-footer/site-footer.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/site-footer/site-footer.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/site-footer/site-footer.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/site-footer",
@@ -4890,143 +4890,143 @@
       "files": [
         {
           "path": "registry/blocks/hero-section/hero-section.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-section.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-section.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-section.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-section.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-section.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-content.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-content.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-content.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-content.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-content.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-content.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-motion.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-motion.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-motion.ts"
         },
         {
           "path": "registry/components/copy-button/copy-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.tsx"
         },
         {
           "path": "registry/components/copy-button/copy-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.module.css"
         },
         {
           "path": "lib/use-copy-feedback.ts",
           "type": "registry:lib",
-          "target": "~/lib/use-copy-feedback.ts"
+          "target": "@components/arc/lib/use-copy-feedback.ts"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-mesh.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-mesh.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-mesh.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-mesh.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-mesh.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-mesh.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-cadence.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-cadence.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-cadence.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-cadence.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-cadence.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-cadence.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-relay.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-relay.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-relay.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-relay.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-relay.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-relay.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-lumen.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-lumen.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-lumen.tsx"
         },
         {
           "path": "registry/blocks/hero-section/hero-lumen.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-lumen.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-lumen.module.css"
         },
         {
           "path": "registry/blocks/hero-section/hero-lumen-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/hero-section/hero-lumen-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/hero-section/hero-lumen-data.ts"
         },
         {
           "path": "registry/components/line-chart/line-chart.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/line-chart/line-chart.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/line-chart/line-chart.tsx"
         },
         {
           "path": "registry/components/line-chart/line-chart.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/line-chart/line-chart.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/line-chart/line-chart.module.css"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/sparkline/sparkline.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/sparkline/sparkline.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/sparkline/sparkline.tsx"
         },
         {
           "path": "registry/components/sparkline/sparkline.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/sparkline/sparkline.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/sparkline/sparkline.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/hero-section",
@@ -5057,33 +5057,33 @@
       "files": [
         {
           "path": "registry/blocks/faq-section/faq-section.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/faq-section/faq-section.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/faq-section/faq-section.tsx"
         },
         {
           "path": "registry/blocks/faq-section/faq-section.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/faq-section/faq-section.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/faq-section/faq-section.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/search-field/search-field.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/search-field/search-field.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/search-field/search-field.tsx"
         },
         {
           "path": "registry/components/search-field/search-field.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/search-field/search-field.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/search-field/search-field.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/faq-section",
@@ -5118,83 +5118,83 @@
       "files": [
         {
           "path": "registry/blocks/contact-section/contact-section.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/contact-section/contact-section.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/contact-section/contact-section.tsx"
         },
         {
           "path": "registry/blocks/contact-section/contact-section.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/contact-section/contact-section.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/contact-section/contact-section.module.css"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/components/textarea/textarea.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/textarea/textarea.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/textarea/textarea.tsx"
         },
         {
           "path": "registry/components/textarea/textarea.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/textarea/textarea.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/textarea/textarea.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/input/input.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.tsx"
         },
         {
           "path": "registry/components/input/input.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/input/input.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/input/input.module.css"
         },
         {
           "path": "registry/components/copy-button/copy-button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.tsx"
         },
         {
           "path": "registry/components/copy-button/copy-button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/copy-button/copy-button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/copy-button/copy-button.module.css"
         },
         {
           "path": "lib/use-copy-feedback.ts",
           "type": "registry:lib",
-          "target": "~/lib/use-copy-feedback.ts"
+          "target": "@components/arc/lib/use-copy-feedback.ts"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         },
         {
           "path": "registry/components/avatar/avatar.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.tsx"
         },
         {
           "path": "registry/components/avatar/avatar.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/avatar/avatar.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/avatar/avatar.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/contact-section",
@@ -5223,18 +5223,18 @@
       "files": [
         {
           "path": "registry/blocks/blog-grid/blog-grid.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/blog-grid/blog-grid.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/blog-grid/blog-grid.tsx"
         },
         {
           "path": "registry/blocks/blog-grid/blog-grid-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/blog-grid/blog-grid-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/blog-grid/blog-grid-data.ts"
         },
         {
           "path": "registry/blocks/blog-grid/blog-grid.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/blog-grid/blog-grid.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/blog-grid/blog-grid.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/blog-grid",
@@ -5263,18 +5263,18 @@
       "files": [
         {
           "path": "registry/blocks/comparison-table/comparison-table.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/comparison-table/comparison-table.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/comparison-table/comparison-table.tsx"
         },
         {
           "path": "registry/blocks/comparison-table/comparison-table-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/comparison-table/comparison-table-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/comparison-table/comparison-table-data.ts"
         },
         {
           "path": "registry/blocks/comparison-table/comparison-table.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/comparison-table/comparison-table.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/comparison-table/comparison-table.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/comparison-table",
@@ -5303,33 +5303,33 @@
       "files": [
         {
           "path": "registry/blocks/stats-band/stats-band.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/stats-band/stats-band.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/stats-band/stats-band.tsx"
         },
         {
           "path": "registry/blocks/stats-band/stats-band-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/stats-band/stats-band-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/stats-band/stats-band-data.ts"
         },
         {
           "path": "registry/blocks/stats-band/stats-band.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/stats-band/stats-band.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/stats-band/stats-band.module.css"
         },
         {
           "path": "registry/blocks/stats-band/stats-band-world.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/stats-band/stats-band-world.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/stats-band/stats-band-world.ts"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/stats-band",
@@ -5360,43 +5360,43 @@
       "files": [
         {
           "path": "registry/blocks/cta-section/cta-section.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/cta-section/cta-section.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/cta-section/cta-section.tsx"
         },
         {
           "path": "registry/blocks/cta-section/cta-section-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/cta-section/cta-section-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/cta-section/cta-section-data.ts"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/blocks/cta-section/cta-section.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/cta-section/cta-section.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/cta-section/cta-section.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/button/button.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.tsx"
         },
         {
           "path": "registry/components/button/button.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/button/button.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/button/button.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/cta-section",
@@ -5429,53 +5429,53 @@
       "files": [
         {
           "path": "registry/blocks/newsletter-signup/newsletter-signup.tsx",
-          "type": "registry:file",
-          "target": "~/registry/blocks/newsletter-signup/newsletter-signup.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/newsletter-signup/newsletter-signup.tsx"
         },
         {
           "path": "registry/blocks/newsletter-signup/newsletter-signup-data.ts",
-          "type": "registry:file",
-          "target": "~/registry/blocks/newsletter-signup/newsletter-signup-data.ts"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/newsletter-signup/newsletter-signup-data.ts"
         },
         {
           "path": "lib/media.ts",
           "type": "registry:lib",
-          "target": "~/lib/media.ts"
+          "target": "@components/arc/lib/media.ts"
         },
         {
           "path": "registry/blocks/newsletter-signup/newsletter-signup.module.css",
-          "type": "registry:file",
-          "target": "~/registry/blocks/newsletter-signup/newsletter-signup.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/blocks/newsletter-signup/newsletter-signup.module.css"
         },
         {
           "path": "registry/components/switch/switch.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.tsx"
         },
         {
           "path": "registry/components/switch/switch.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/switch/switch.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/switch/switch.module.css"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.tsx"
         },
         {
           "path": "registry/components/segmented-control/segmented-control.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/segmented-control/segmented-control.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/segmented-control/segmented-control.module.css"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.tsx",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.tsx"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.tsx"
         },
         {
           "path": "registry/components/animated-counter/animated-counter.module.css",
-          "type": "registry:file",
-          "target": "~/registry/components/animated-counter/animated-counter.module.css"
+          "type": "registry:component",
+          "target": "@components/arc/animated-counter/animated-counter.module.css"
         }
       ],
       "docs": "Docs and live preview: https://uiarc.dev/components/blocks/newsletter-signup",

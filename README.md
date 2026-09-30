@@ -136,7 +136,7 @@ A few favorites, recorded live from [uiarc.dev](https://uiarc.dev). Items marked
 - **React 19** with TypeScript
 - **Next.js** (App Router) or **Vite**
 - **[motion](https://www.npmjs.com/package/motion)** for animation. Some items also use [lucide-react](https://lucide.dev) or a [Radix UI](https://www.radix-ui.com) primitive; the CLI installs whatever an item needs.
-- The `@/*` import alias pointing at your project root
+- The `@/*` import alias (Next.js and shadcn set it up by default)
 
 No Tailwind is required. Arc styles are CSS modules that read CSS variables.
 
@@ -168,7 +168,7 @@ Your first install adds `arc-foundation` (design and motion tokens). Import it o
 
 ```tsx
 // app/layout.tsx (Next.js) or src/main.tsx (Vite)
-import "@/registry/foundation.css";
+import "@/components/arc/foundation.css";
 ```
 
 <details>
@@ -194,13 +194,13 @@ cd my-app
 npx shadcn@latest init
 ```
 
-Map `@/*` to the project root in `tsconfig.json` and `vite.config.ts`:
+Map `@/*` to `src` in `tsconfig.json` and `vite.config.ts`, as shadcn expects:
 
 ```json
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { "@/*": ["./*"] }
+    "paths": { "@/*": ["./src/*"] }
   }
 }
 ```
@@ -212,7 +212,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
-  resolve: { alias: { "@": path.resolve(__dirname, ".") } },
+  resolve: { alias: { "@": path.resolve(__dirname, "./src") } },
 });
 ```
 
@@ -221,17 +221,17 @@ export default defineConfig({
 ### Copy and paste
 
 1. Install the shared packages: `npm install motion lucide-react`.
-2. Copy `registry/foundation.css`, `registry/motion-tokens.ts` and `lib/motion-tokens.ts` from this repository into the same paths in your project, and import the CSS once at the root.
-3. Copy the item's folder from `registry/components/<id>/` or `registry/blocks/<id>/`, keeping the path. Its `public/r/<id>.json` file lists every file and npm package it needs.
+2. Copy `registry/foundation.css`, `registry/motion-tokens.ts` and `lib/motion-tokens.ts` from this repository into the same paths under your `@/` root, and import the CSS once at the root.
+3. Copy the item's folder from `registry/components/<id>/` or `registry/blocks/<id>/`, keeping the path. Copied files keep this repository's layout and import each other through `@/`; the CLI install above rewrites that for you. Its `public/r/<id>.json` file lists every file and npm package it needs.
 
 Each page on [uiarc.dev](https://uiarc.dev/components) also has a Manual tab with the exact files.
 
 ## Usage
 
-Files land under `registry/` and `lib/` at your project root and import each other through `@/`. Use them like any local component:
+The CLI puts every file in an `arc/` folder under the `components` alias in your `components.json`, for example `components/arc/button/button.tsx`, or `src/components/arc/…` in a `src/` project or monorepo package. Arc files import each other with relative paths, so any alias setup works; move the `arc/` folder as a whole if you want it elsewhere. Use them like any local component:
 
 ```tsx
-import { Button } from "@/registry/components/button/button";
+import { Button } from "@/components/arc/button/button";
 
 export default function Page() {
   return <Button>Save changes</Button>;
@@ -242,7 +242,7 @@ The code is yours: edit it, rename it, move it. There is no runtime package to k
 
 ## Theming
 
-Components read semantic tokens, never raw colors. Change a token in `registry/foundation.css` and every component follows, in both themes.
+Components read semantic tokens, never raw colors. Change a token in `foundation.css` (`components/arc/foundation.css` after a CLI install) and every component follows, in both themes.
 
 | Token | Used for |
 | --- | --- |
@@ -257,7 +257,7 @@ Components read semantic tokens, never raw colors. Change a token in `registry/f
 
 - **Dark mode:** set `data-theme="dark"` on `<html>`. Dark values are tuned separately, not inverted.
 - **Accent:** set `data-accent` on `<html>` to `neutral`, `violet`, `blue`, `green`, `amber`, `orange`, `coral` or `rose`.
-- **Motion:** springs and durations live in `lib/motion-tokens.ts`. Every animation respects `prefers-reduced-motion`.
+- **Motion:** springs and durations live in `lib/motion-tokens.ts` (`components/arc/lib/motion-tokens.ts` after a CLI install). Every animation respects `prefers-reduced-motion`.
 
 More in the [theming docs](https://uiarc.dev/docs/theming) and [motion docs](https://uiarc.dev/docs/motion).
 
