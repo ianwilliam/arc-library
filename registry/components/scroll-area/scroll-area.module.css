@@ -77,3 +77,4 @@
 @media (prefers-reduced-motion: reduce) {
   .track, .thumb::after { transition: none; }
 }
+.viewport:focus-visible { outline: 2px solid var(--control-on); outline-offset: -2px; }

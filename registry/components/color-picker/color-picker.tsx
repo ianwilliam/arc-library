@@ -49,6 +49,8 @@ const physical = (visualDuration: number, bounce: number): Transition => {
 };
 /** Thumbs chase the pointer on a quick spring with a little life, so a click lands with a soft settle and a drag trails by a hair. */
 const thumbSpring = physical(.26, .22);
+/** Under a finger or mouse drag the thumb stays glued to the pointer: a stiff spring with no bounce, so it never trails or wobbles. */
+const dragSpring = physical(.1, 0);
 const openSpring = physical(spring.morph.visualDuration, .1), closeSpring = physical(.3, 0);
 const instant: Transition = { duration: 0 };
 
@@ -168,13 +170,13 @@ function useEyeDropper() { return useSyncExternalStore(subscribe, () => "EyeDrop
 type EyeDropperCtor = new () => { open: () => Promise<{ sRGBHex: string }> };
 
 /** Springs a motion value to a new target, or jumps under reduced motion. Retargeting keeps the current velocity. */
-function useFollow(target: number, reduced: boolean) {
+function useFollow(target: number, reduced: boolean, dragging = false) {
   const value = useMotionValue(target);
   useEffect(() => {
     if (reduced) { value.jump(target); return; }
-    const controls = animate(value, target, thumbSpring);
+    const controls = animate(value, target, dragging ? dragSpring : thumbSpring);
     return () => controls.stop();
-  }, [reduced, target, value]);
+  }, [dragging, reduced, target, value]);
   return value;
 }
 
@@ -212,7 +214,7 @@ function stepFor(event: ReactKeyboardEvent, axis: "x" | "y" | "both") {
 
 interface SliderProps { label: string; value: number; valueText: string; max: number; unit: number; onChange: (value: number) => void; className: string; style?: CSSProperties; reduced: boolean; fill: string; onActive: (active: boolean) => void; active: boolean }
 function Slider({ label, value, valueText, max, unit, onChange, className, style, reduced, fill, onActive, active }: SliderProps) {
-  const x = useFollow(value / max, reduced);
+  const x = useFollow(value / max, reduced, active);
   const left = useTransform(x, v => `${v * 100}%`);
   const pad = usePad(fx => onChange(fx * max), onActive);
   return <div className={`${styles.slider} ${className}`} style={style} {...pad}>
@@ -351,7 +353,7 @@ export function ColorPicker({
   }, [open]);
 
   // The saturation and brightness area.
-  const areaX = useFollow(hsva.s, reduced), areaY = useFollow(1 - hsva.v, reduced);
+  const areaX = useFollow(hsva.s, reduced, active === "area"), areaY = useFollow(1 - hsva.v, reduced, active === "area");
   const areaLeft = useTransform(areaX, v => `${v * 100}%`), areaTop = useTransform(areaY, v => `${v * 100}%`);
   const areaPad = usePad((x, y) => commit({ ...hsva, s: x, v: 1 - y }), on => setActive(on ? "area" : null));
 

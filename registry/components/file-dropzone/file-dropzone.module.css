@@ -113,3 +113,5 @@
   .dropzone.dragging { animation: none; }
   .retry:active, .remove:active { transform: none; }
 }
+.dropzone:has(.trigger:focus-visible) { box-shadow: 0 0 0 3px var(--focus-ring); }
+.retry:focus-visible, .remove:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--focus-ring); }

@@ -2546,6 +2546,45 @@
       }
     },
     {
+      "name": "password-strength",
+      "type": "registry:ui",
+      "title": "Password strength",
+      "description": "Show how strong a new password is while it is typed.",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/password-strength/password-strength.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/password-strength/password-strength.tsx"
+        },
+        {
+          "path": "registry/components/password-strength/password-strength.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/password-strength/password-strength.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/password-strength",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/password-strength",
+        "markdown": "https://uiarc.dev/components/password-strength/markdown",
+        "tags": [
+          "password",
+          "strength meter",
+          "validation"
+        ]
+      }
+    },
+    {
       "name": "bottom-sheet",
       "type": "registry:ui",
       "title": "Bottom sheet",

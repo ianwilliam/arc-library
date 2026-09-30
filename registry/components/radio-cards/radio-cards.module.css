@@ -76,6 +76,7 @@
   .card:not([data-checked]):not([aria-disabled="true"]):hover { border-color: var(--border-strong); }
 }
 .card:not([data-checked]):not([aria-disabled="true"]):active { background: var(--surface-muted); }
+.card:focus-visible { outline: 2px solid var(--control-on); outline-offset: 2px; }
 .card:focus-visible:not([data-checked]) { border-color: var(--border-strong); background: var(--surface-muted); }
 
 @media (prefers-reduced-motion: reduce) {

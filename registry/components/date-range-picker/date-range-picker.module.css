@@ -10,7 +10,8 @@
   letter-spacing: var(--tracking-body);
   line-height: var(--leading-body);
 }
-.root[data-open] { z-index: 20; }
+.root { z-index: 0; transition: z-index 0s linear .5s; }
+.root[data-open] { z-index: 30; transition-delay: 0s; }
 .root:not([data-open]) .surface { z-index: 0; }
 .root *, .root *::before, .root *::after { box-sizing: border-box; }
 

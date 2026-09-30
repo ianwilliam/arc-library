@@ -29,6 +29,8 @@
 @media (hover: hover) and (pointer: fine) { .field:not([data-open], [data-disabled]) .lid .trigger:hover { background: var(--surface-muted); } }
 .lid .trigger:active:not(:disabled) { background: var(--surface-muted); }
 .lid .trigger:disabled { cursor: not-allowed; }
+.lid .trigger:focus-visible { background: var(--surface-muted); outline: 2px solid var(--foreground); outline-offset: -2px; }
+.clear:focus-visible, .closeHit:focus-visible { outline: 2px solid var(--foreground); outline-offset: 1px; }
 /* An invisible copy that says how wide the closed button wants to be. */
 .measure { visibility: hidden; pointer-events: none; width: max-content; }
 

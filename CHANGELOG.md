@@ -2,6 +2,12 @@
 
 New free components and blocks ship regularly. Every entry links to its live preview on uiarc.dev.
 
+## 2026-09-30
+
+### Added
+
+- [Password strength](https://uiarc.dev/components/password-strength) (component): Show how strong a new password is while it is typed.
+
 ## Initial release
 
 97 components and 22 blocks, plus the design tokens (`registry/foundation.css`) and motion presets (`lib/motion-tokens.ts`) they share.

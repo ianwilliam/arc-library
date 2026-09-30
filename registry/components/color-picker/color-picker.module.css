@@ -37,7 +37,8 @@
   transition: background-color var(--duration-fast) var(--ease-standard), color var(--duration-fast) var(--ease-standard), transform var(--duration-fast) var(--ease-standard);
 }
 .iconButton:active { transform: scale(.94); }
-.body { display: grid; gap: 14px; padding: 8px 14px 0; }
+/* One column locked to the panel: a wider grade label ("AA large") must never widen the area and sliders mid drag. */
+.body { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 14px 0; }
 
 /* Saturation runs left to right, brightness bottom to top, over the pure hue. */
 .area {

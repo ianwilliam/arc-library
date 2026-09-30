@@ -10,6 +10,7 @@
 .crumbSep { padding: 0 4px; color: var(--border-strong); font-size: var(--text-sm); }
 .crumbButton { min-height: 32px; padding: 0 6px; margin: 0 -2px; border: 0; border-radius: 10px; background: transparent; color: var(--text-secondary); cursor: pointer; font: inherit; font-size: var(--text-sm); line-height: var(--leading-body); white-space: nowrap; -webkit-tap-highlight-color: transparent; transition: color var(--duration-fast) var(--ease-standard), background-color var(--duration-fast) var(--ease-standard), transform var(--duration-instant) var(--ease-standard); }
 .crumbButton:active { transform: scale(.97); }
+.crumbButton:focus-visible { outline: 2px solid var(--ring, var(--foreground)); outline-offset: 1px; }
 .crumbCurrent { padding: 0 4px; color: var(--foreground); font-size: var(--text-sm); font-weight: 500; line-height: var(--leading-body); white-space: nowrap; }
 @media (hover: hover) and (pointer: fine) { .crumbButton:hover { background: color-mix(in oklch, var(--foreground) 5%, transparent); color: var(--foreground); } }
 .total { position: relative; display: inline-grid; flex: none; justify-items: end; overflow: hidden; margin: 0; color: var(--foreground); font-size: var(--text-sm); font-weight: 500; line-height: var(--leading-body); font-variant-numeric: tabular-nums; }
@@ -17,6 +18,7 @@
 
 /* Tiles are absolutely placed and sized each frame, so text never scales while a tile grows or shrinks. */
 .stage { position: relative; min-width: 0; overflow: hidden; border-radius: 12px; outline: none; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.stage:focus-visible { outline: 2px solid var(--ring, var(--foreground)); outline-offset: 2px; }
 .tile { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; gap: 1px; overflow: hidden; padding: 6px 8px; border-radius: 6px; background: var(--fill); color: var(--foreground); cursor: pointer; visibility: hidden; will-change: transform, width, height; transition: background-color var(--duration-considered) var(--ease-standard), color var(--duration-considered) var(--ease-standard), filter var(--duration-fast) var(--ease-standard), box-shadow var(--duration-fast) var(--ease-standard); }
 .tile[data-branch][data-level="1"] { padding: 3px 8px; border-radius: 8px; background: color-mix(in oklch, var(--hue) 9%, var(--surface)); color: var(--foreground); cursor: zoom-in; }
 .tileLabel, .tileValue { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: var(--text-xs); line-height: 16px; opacity: 0; transition: opacity var(--duration-fast) var(--ease-standard); }
