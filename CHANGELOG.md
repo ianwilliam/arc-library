@@ -7,6 +7,8 @@ New free components and blocks ship regularly. Every entry links to its live pre
 ### Added
 
 - [Password strength](https://uiarc.dev/components/password-strength) (component): Show how strong a new password is while it is typed.
+- [Expanding search](https://uiarc.dev/components/expanding-search) (component): An icon that morphs into a search field with results beneath it.
+- [JSON viewer](https://uiarc.dev/components/json-viewer) (component): A collapsible JSON tree with search, paging for long arrays, and copy value or path.
 
 ## Initial release
 

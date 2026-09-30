@@ -2507,6 +2507,46 @@
       }
     },
     {
+      "name": "expanding-search",
+      "type": "registry:ui",
+      "title": "Expanding search",
+      "description": "An icon that morphs into a search field with results beneath it.",
+      "categories": [
+        "inputs"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/expanding-search/expanding-search.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/expanding-search/expanding-search.tsx"
+        },
+        {
+          "path": "registry/components/expanding-search/expanding-search.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/expanding-search/expanding-search.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/expanding-search",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/expanding-search",
+        "markdown": "https://uiarc.dev/components/expanding-search/markdown",
+        "tags": [
+          "search",
+          "field",
+          "motion"
+        ]
+      }
+    },
+    {
       "name": "chip-group",
       "type": "registry:ui",
       "title": "Chip group",
@@ -3533,6 +3573,45 @@
         "markdown": "https://uiarc.dev/components/announcement-bar/markdown",
         "tags": [
           "feedback",
+          "new"
+        ]
+      }
+    },
+    {
+      "name": "json-viewer",
+      "type": "registry:ui",
+      "title": "JSON viewer",
+      "description": "A collapsible JSON tree with search, paging for long arrays, and copy value or path.",
+      "categories": [
+        "data"
+      ],
+      "dependencies": [
+        "lucide-react",
+        "motion"
+      ],
+      "registryDependencies": [
+        "https://uiarc.dev/r/arc-foundation.json"
+      ],
+      "files": [
+        {
+          "path": "registry/components/json-viewer/json-viewer.tsx",
+          "type": "registry:file",
+          "target": "~/registry/components/json-viewer/json-viewer.tsx"
+        },
+        {
+          "path": "registry/components/json-viewer/json-viewer.module.css",
+          "type": "registry:file",
+          "target": "~/registry/components/json-viewer/json-viewer.module.css"
+        }
+      ],
+      "docs": "Docs and live preview: https://uiarc.dev/components/json-viewer",
+      "meta": {
+        "tier": "free",
+        "kind": "component",
+        "docs": "https://uiarc.dev/components/json-viewer",
+        "markdown": "https://uiarc.dev/components/json-viewer/markdown",
+        "tags": [
+          "data",
           "new"
         ]
       }
