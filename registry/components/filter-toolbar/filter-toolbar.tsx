@@ -267,7 +267,7 @@ export function FilterMenu({ fields, onSelect, active = [], label = "Add filter"
     const token = (run.current += 1);
     setPhase("closing");
     // Focus returns to the trigger; its ring shows only when the menu was closed from the keyboard.
-    if (restore) button.focus({ preventScroll: true, focusVisible: restore === "keyboard" });
+    if (restore) button.focus({ preventScroll: true, focusVisible: restore === "keyboard" } as FocusOptions);
     // Closing is quicker than opening: the snappy spring lands the shape back on the button.
     const transition = reduced ? still : motionTokens.spring.snappy;
     animate(left, 0, transition);
@@ -313,7 +313,7 @@ export function FilterMenu({ fields, onSelect, active = [], label = "Add filter"
       // A press on empty space hands focus back to the trigger; a press on another control keeps its own focus.
       if (!hit?.closest?.("button, a[href], input, select, textarea, [tabindex], [contenteditable]")) window.setTimeout(() => {
         const focused = document.activeElement;
-        if (!focused || focused === document.body || node.contains(focused)) trigger.current?.focus({ preventScroll: true, focusVisible: false });
+        if (!focused || focused === document.body || node.contains(focused)) trigger.current?.focus({ preventScroll: true, focusVisible: false } as FocusOptions);
       }, 0);
     };
     document.addEventListener("pointerdown", onPointerDown, true);

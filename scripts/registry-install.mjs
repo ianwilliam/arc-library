@@ -12,6 +12,33 @@
  * relative and never depend on how the project maps `@/*`.
  */
 import path from "node:path";
+import ts from "typescript";
+
+/**
+ * The module specifiers a file really imports. Scripts are parsed with TypeScript and only real import and export
+ * declarations, `import()` and `require()` count, so code samples in strings, template literals, JSX text and comments
+ * never become dependencies. CSS contributes its `@import` rules and CSS module `composes: … from` references.
+ */
+export function importSpecifiers(file, content) {
+  if (file.endsWith(".css")) {
+    return [...content.matchAll(/@import\s+(?:url\(\s*)?["']([^"']+)["']|\bcomposes\s*:[^;]*?\bfrom\s+["']([^"']+)["']/g)].map(match => match[1] ?? match[2]);
+  }
+  const kind = file.endsWith(".tsx") ? ts.ScriptKind.TSX : file.endsWith(".jsx") ? ts.ScriptKind.JSX : file.endsWith(".js") || file.endsWith(".mjs") ? ts.ScriptKind.JS : ts.ScriptKind.TS;
+  const source = ts.createSourceFile(file, content, ts.ScriptTarget.Latest, false, kind);
+  const found = [];
+  const visit = node => {
+    if ((ts.isImportDeclaration(node) || ts.isExportDeclaration(node)) && node.moduleSpecifier && ts.isStringLiteral(node.moduleSpecifier)) found.push(node.moduleSpecifier.text);
+    else if (ts.isImportEqualsDeclaration(node) && ts.isExternalModuleReference(node.moduleReference) && ts.isStringLiteral(node.moduleReference.expression)) found.push(node.moduleReference.expression.text);
+    else if (ts.isCallExpression(node) && node.arguments.length === 1 && ts.isStringLiteralLike(node.arguments[0])
+      && (node.expression.kind === ts.SyntaxKind.ImportKeyword || (ts.isIdentifier(node.expression) && node.expression.text === "require"))) found.push(node.arguments[0].text);
+    ts.forEachChild(node, visit);
+  };
+  visit(source);
+  return found;
+}
+
+/** A valid npm package name (optionally scoped), the only thing a registry item may list as a dependency. */
+export const isPackageName = name => /^(?:@[a-z0-9-~][a-z0-9-._~]*\/)?[a-z0-9-~][a-z0-9-._~]*$/.test(name);
 
 export function installPath(file) {
   if (file.startsWith("registry/components/")) return `arc/${file.slice("registry/components/".length)}`;
